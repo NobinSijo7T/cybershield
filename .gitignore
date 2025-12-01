@@ -44,9 +44,11 @@ app-example
 
 # Large model files
 cyber_detector/model.safetensors
-
 *.safetensors
+
+# Ignore tflite files except the BERT model
 *.tflite
+!assets/models/cyberbully_model.tflite
 
 # Test files
 tests/
