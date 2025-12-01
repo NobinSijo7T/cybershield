@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "CyberShield AI",
+    "slug": "cybershield",
+    "owner": "nobin_77t",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/bootsplash/logo.png",
+    "scheme": "cybershield",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/bootsplash/logo.png"
+    },
+    "android": {
+      "icon": "./assets/bootsplash/logo.png",
+      "adaptiveIcon": {
+        "backgroundColor": "#6366F1",
+        "foregroundImage": "./assets/bootsplash/logo.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "RECORD_AUDIO",
+        "INTERNET"
+      ],
+      "package": "com.cybershield.ai"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "react-native-bootsplash",
+        {
+          "assetsDir": "assets/bootsplash",
+          "android": {
+            "parentTheme": "TransparentStatus"
+          }
+        }
+      ],
+      "./plugins/withAndroidXFix.js",
+      [
+        "react-native-fast-tflite",
+        {
+          "models": [
+            "./assets/models/cyberbully_model.tflite"
+          ]
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
