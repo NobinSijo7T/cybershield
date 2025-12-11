@@ -1,0 +1,960 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar UP-TO-DATE
+> Task :expo-dev-launcher-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-dev-launcher-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-module-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-dev-launcher-gradle-plugin:processResources UP-TO-DATE
+> Task :expo-module-gradle-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+> Task :expo-dev-launcher-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :expo-module-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :expo-dev-launcher-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-dev-launcher-gradle-plugin:classes UP-TO-DATE
+> Task :expo-module-gradle-plugin:classes UP-TO-DATE
+> Task :expo-module-gradle-plugin:jar UP-TO-DATE
+> Task :expo-dev-launcher-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :
+[32m[ExpoRootProject][0m Using the following versions:
+  - buildTools:  [32m36.0.0[0m
+  - minSdk:      [32m24[0m
+  - compileSdk:  [32m36[0m
+  - targetSdk:   [32m36[0m
+  - ndk:         [32m27.1.12297006[0m
+  - kotlin:      [32m2.1.20[0m
+  - ksp:         [32m2.1.20-2.0.1[0m
+
+> Configure project :app
+ ℹ️  [33mApplying gradle plugin[0m '[32mexpo-dev-launcher-gradle-plugin[0m'
+
+> Configure project :expo
+
+Using expo modules
+  - [32mexpo-constants[0m (18.0.10)
+  - [32mexpo-dev-client[0m (6.0.20)
+  - [32mexpo-dev-launcher[0m (6.0.20)
+  - [32mexpo-dev-menu[0m (7.0.18)
+  - [32mexpo-dev-menu-interface[0m (2.0.0)
+  - [32mexpo-json-utils[0m (0.15.0)
+  - [32mexpo-manifests[0m (1.0.10)
+  - [32mexpo-modules-core[0m (3.0.26)
+  - [32mexpo-speech-recognition[0m (0.1.0)
+  - [32mexpo-updates-interface[0m (2.0.0)
+  - [33m[📦][0m [32mexpo-asset[0m (12.0.10)
+  - [33m[📦][0m [32mexpo-av[0m (16.0.7)
+  - [33m[📦][0m [32mexpo-file-system[0m (19.0.19)
+  - [33m[📦][0m [32mexpo-font[0m (14.0.9)
+  - [33m[📦][0m [32mexpo-haptics[0m (15.0.7)
+  - [33m[📦][0m [32mexpo-image[0m (3.0.10)
+  - [33m[📦][0m [32mexpo-keep-awake[0m (15.0.7)
+  - [33m[📦][0m [32mexpo-linear-gradient[0m (15.0.7)
+  - [33m[📦][0m [32mexpo-linking[0m (8.0.9)
+  - [33m[📦][0m [32mexpo-splash-screen[0m (31.0.11)
+  - [33m[📦][0m [32mexpo-system-ui[0m (6.0.8)
+  - [33m[📦][0m [32mexpo-web-browser[0m (15.0.9)
+
+
+> Task :expo-dev-launcher:preBuild UP-TO-DATE
+> Task :expo-dev-client:preBuild UP-TO-DATE
+> Task :expo-modules-core:preBuild UP-TO-DATE
+> Task :expo-dev-menu:preBuild UP-TO-DATE
+> Task :expo-json-utils:preBuild UP-TO-DATE
+> Task :expo-updates-interface:preBuild UP-TO-DATE
+> Task :expo-speech-recognition:preBuild UP-TO-DATE
+> Task :expo-manifests:preBuild UP-TO-DATE
+> Task :expo-dev-menu-interface:preBuild UP-TO-DATE
+> Task :react-native-voice_voice:preBuild UP-TO-DATE
+> Task :expo-dev-client:preReleaseBuild UP-TO-DATE
+> Task :expo-dev-launcher:preReleaseBuild UP-TO-DATE
+> Task :expo-dev-menu:preReleaseBuild UP-TO-DATE
+> Task :expo-dev-menu-interface:preReleaseBuild UP-TO-DATE
+> Task :expo-json-utils:preReleaseBuild UP-TO-DATE
+> Task :app:generateAutolinkingNewArchitectureFiles
+> Task :react-native-reanimated:assertMinimalReactNativeVersionTask
+> Task :react-native-reanimated:assertNewArchitectureEnabledTask SKIPPED
+> Task :app:generateAutolinkingPackageList
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:generateReactNativeEntryPoint
+> Task :expo-manifests:preReleaseBuild UP-TO-DATE
+> Task :react-native-worklets:assertMinimalReactNativeVersionTask
+> Task :react-native-worklets:assertNewArchitectureEnabledTask SKIPPED
+> Task :react-native-reanimated:assertWorkletsVersionTask
+> Task :expo-json-utils:mergeReleaseJniLibFolders
+> Task :expo-dev-launcher:mergeReleaseJniLibFolders
+> Task :expo-manifests:mergeReleaseJniLibFolders
+> Task :expo-dev-menu:mergeReleaseJniLibFolders
+> Task :expo-dev-menu-interface:mergeReleaseJniLibFolders
+> Task :expo-dev-client:mergeReleaseJniLibFolders
+> Task :expo-dev-launcher:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-json-utils:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-dev-menu:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-dev-menu-interface:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-dev-client:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-manifests:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-dev-menu:copyReleaseJniLibsProjectOnly
+> Task :expo-manifests:copyReleaseJniLibsProjectOnly
+> Task :expo-modules-core:preReleaseBuild UP-TO-DATE
+> Task :expo-speech-recognition:preReleaseBuild UP-TO-DATE
+> Task :expo-dev-launcher:copyReleaseJniLibsProjectOnly
+> Task :expo-dev-client:copyReleaseJniLibsProjectOnly
+> Task :expo-dev-menu-interface:copyReleaseJniLibsProjectOnly
+> Task :expo-json-utils:copyReleaseJniLibsProjectOnly
+> Task :expo-updates-interface:preReleaseBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateCodegenSchemaFromJavaScript
+> Task :expo-dev-launcher:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-voice_voice:preReleaseBuild UP-TO-DATE
+> Task :expo-dev-client:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-safe-area-context:generateCodegenSchemaFromJavaScript
+> Task :react-native-fast-tflite:generateCodegenSchemaFromJavaScript
+> Task :react-native-gesture-handler:generateCodegenSchemaFromJavaScript
+> Task :react-native-bootsplash:generateCodegenSchemaFromJavaScript
+> Task :expo-speech-recognition:mergeReleaseJniLibFolders
+> Task :expo-speech-recognition:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-voice_voice:mergeReleaseJniLibFolders
+> Task :react-native-voice_voice:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-screens:generateCodegenSchemaFromJavaScript
+> Task :react-native-worklets:generateCodegenSchemaFromJavaScript
+
+> Task :expo-constants:createExpoConfig
+The NODE_ENV environment variable is required but was not specified. Ensure the project is bundled with Expo CLI or NODE_ENV is set. Using only .env.local and .env
+
+> Task :expo-constants:preBuild
+> Task :expo-constants:preReleaseBuild
+> Task :react-native-reanimated:generateCodegenSchemaFromJavaScript
+> Task :react-native-safe-area-context:generateCodegenArtifactsFromSchema
+> Task :react-native-safe-area-context:preBuild
+> Task :react-native-safe-area-context:preReleaseBuild
+> Task :react-native-safe-area-context:mergeReleaseJniLibFolders
+> Task :react-native-safe-area-context:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-async-storage_async-storage:generateCodegenArtifactsFromSchema
+> Task :react-native-async-storage_async-storage:preBuild
+> Task :react-native-async-storage_async-storage:preReleaseBuild
+> Task :expo-constants:mergeReleaseJniLibFolders
+> Task :expo-constants:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-updates-interface:mergeReleaseJniLibFolders
+> Task :react-native-worklets:generateCodegenArtifactsFromSchema
+> Task :expo-updates-interface:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-speech-recognition:copyReleaseJniLibsProjectOnly
+> Task :react-native-safe-area-context:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-safe-area-context:generateReleaseBuildConfig
+> Task :react-native-gesture-handler:generateCodegenArtifactsFromSchema
+> Task :react-native-gesture-handler:preBuild
+> Task :react-native-gesture-handler:preReleaseBuild
+> Task :react-native-safe-area-context:generateReleaseResValues
+> Task :react-native-fast-tflite:generateCodegenArtifactsFromSchema
+> Task :react-native-fast-tflite:preBuild
+> Task :react-native-safe-area-context:generateReleaseResources
+> Task :react-native-screens:generateCodegenArtifactsFromSchema
+> Task :react-native-screens:preBuild
+> Task :react-native-screens:preReleaseBuild
+> Task :react-native-bootsplash:generateCodegenArtifactsFromSchema
+> Task :react-native-bootsplash:preBuild
+> Task :react-native-bootsplash:preReleaseBuild
+> Task :react-native-reanimated:generateCodegenArtifactsFromSchema
+> Task :react-native-bootsplash:mergeReleaseJniLibFolders
+> Task :react-native-bootsplash:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-worklets:prepareWorkletsHeadersForPrefabs
+> Task :react-native-worklets:preBuild
+> Task :react-native-safe-area-context:packageReleaseResources
+> Task :react-native-bootsplash:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-worklets:preReleaseBuild
+> Task :react-native-bootsplash:generateReleaseBuildConfig
+> Task :react-native-bootsplash:generateReleaseResValues
+> Task :expo-constants:copyReleaseJniLibsProjectOnly
+> Task :expo-updates-interface:copyReleaseJniLibsProjectOnly
+> Task :react-native-voice_voice:generateReleaseBuildConfig
+> Task :react-native-fast-tflite:extractAARHeaders
+> Task :react-native-bootsplash:generateReleaseResources
+> Task :react-native-voice_voice:generateReleaseResValues
+> Task :react-native-voice_voice:generateReleaseResources
+> Task :expo:generatePackagesList
+> Task :expo:preBuild
+> Task :expo:preReleaseBuild
+> Task :react-native-voice_voice:packageReleaseResources
+> Task :react-native-reanimated:prepareReanimatedHeadersForPrefabs
+> Task :react-native-reanimated:preBuild
+> Task :app:preBuild
+> Task :app:preReleaseBuild
+> Task :react-native-reanimated:preReleaseBuild
+> Task :react-native-bootsplash:packageReleaseResources
+> Task :react-native-fast-tflite:extractSOFiles
+> Task :react-native-fast-tflite:preReleaseBuild
+> Task :app:mergeReleaseJniLibFolders
+> Task :react-native-bootsplash:copyReleaseJniLibsProjectOnly
+> Task :react-native-safe-area-context:copyReleaseJniLibsProjectOnly
+> Task :expo-constants:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-reanimated:mergeReleaseJniLibFolders
+> Task :expo-constants:generateReleaseBuildConfig
+> Task :react-native-reanimated:generateReleaseBuildConfig
+> Task :expo-constants:generateReleaseResValues
+> Task :react-native-reanimated:generateReleaseResValues
+> Task :expo-constants:generateReleaseResources
+> Task :react-native-reanimated:generateReleaseResources
+> Task :expo-constants:packageReleaseResources
+> Task :react-native-voice_voice:copyReleaseJniLibsProjectOnly
+> Task :react-native-reanimated:packageReleaseResources
+> Task :expo-dev-menu:generateReleaseResValues
+> Task :react-native-voice_voice:javaPreCompileRelease
+> Task :react-native-gesture-handler:mergeReleaseJniLibFolders
+> Task :react-native-gesture-handler:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-gesture-handler:generateReleaseBuildConfig
+> Task :react-native-gesture-handler:generateReleaseResValues
+> Task :react-native-gesture-handler:generateReleaseResources
+> Task :react-native-gesture-handler:packageReleaseResources
+> Task :react-native-reanimated:parseReleaseLocalResources
+> Task :react-native-gesture-handler:parseReleaseLocalResources
+> Task :react-native-reanimated:generateReleaseRFile
+> Task :expo-constants:parseReleaseLocalResources
+> Task :react-native-gesture-handler:generateReleaseRFile
+> Task :react-native-voice_voice:parseReleaseLocalResources
+> Task :react-native-safe-area-context:javaPreCompileRelease
+> Task :expo:mergeReleaseJniLibFolders
+> Task :expo:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-bootsplash:javaPreCompileRelease
+> Task :expo:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo:generateReleaseBuildConfig
+> Task :expo:generateReleaseResValues
+> Task :expo:generateReleaseResources
+> Task :expo:packageReleaseResources
+> Task :expo:parseReleaseLocalResources
+> Task :expo:generateReleaseRFile
+> Task :expo-dev-client:generateReleaseResValues
+> Task :expo-dev-client:generateReleaseResources
+> Task :expo-dev-client:packageReleaseResources
+> Task :expo-dev-client:parseReleaseLocalResources
+> Task :expo-dev-client:generateReleaseBuildConfig
+> Task :expo-dev-client:generateReleaseRFile
+> Task :react-native-safe-area-context:parseReleaseLocalResources
+> Task :react-native-reanimated:javaPreCompileRelease
+> Task :react-native-safe-area-context:generateReleaseRFile
+> Task :expo-dev-menu:generateReleaseResources
+> Task :expo-dev-menu:packageReleaseResources
+> Task :expo-dev-client:javaPreCompileRelease
+> Task :expo-dev-menu-interface:generateReleaseResValues
+> Task :expo-dev-menu-interface:generateReleaseResources
+> Task :expo-dev-menu-interface:packageReleaseResources
+> Task :react-native-bootsplash:parseReleaseLocalResources
+> Task :react-native-async-storage_async-storage:mergeReleaseJniLibFolders
+> Task :react-native-async-storage_async-storage:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-voice_voice:generateReleaseRFile
+> Task :react-native-async-storage_async-storage:generateReleaseBuildConfig
+> Task :react-native-async-storage_async-storage:generateReleaseResValues
+> Task :react-native-async-storage_async-storage:generateReleaseResources
+> Task :react-native-async-storage_async-storage:packageReleaseResources
+> Task :react-native-async-storage_async-storage:copyReleaseJniLibsProjectOnly
+> Task :react-native-async-storage_async-storage:parseReleaseLocalResources
+> Task :expo-dev-menu-interface:parseReleaseLocalResources
+> Task :expo-constants:generateReleaseRFile
+> Task :react-native-async-storage_async-storage:generateReleaseRFile
+> Task :expo-json-utils:generateReleaseResValues
+> Task :expo-dev-menu-interface:generateReleaseRFile
+> Task :expo-json-utils:generateReleaseResources
+> Task :react-native-gesture-handler:javaPreCompileRelease
+> Task :expo-updates-interface:generateReleaseResValues
+> Task :expo-json-utils:packageReleaseResources
+> Task :expo-updates-interface:generateReleaseResources
+> Task :expo-json-utils:parseReleaseLocalResources
+> Task :expo-updates-interface:packageReleaseResources
+> Task :expo-dev-menu:parseReleaseLocalResources
+> Task :expo-updates-interface:parseReleaseLocalResources
+> Task :expo-dev-menu:generateReleaseRFile
+> Task :expo-dev-menu:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-json-utils:generateReleaseRFile
+> Task :expo-dev-menu-interface:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-dev-menu:generateReleaseBuildConfig
+> Task :expo-json-utils:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-dev-menu-interface:generateReleaseBuildConfig
+> Task :expo-json-utils:generateReleaseBuildConfig
+> Task :expo-constants:javaPreCompileRelease
+> Task :expo-json-utils:javaPreCompileRelease
+> Task :expo-updates-interface:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-updates-interface:generateReleaseBuildConfig
+> Task :expo-updates-interface:generateReleaseRFile
+> Task :expo-speech-recognition:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-manifests:generateReleaseResValues
+> Task :expo-updates-interface:javaPreCompileRelease
+> Task :expo-speech-recognition:generateReleaseBuildConfig
+> Task :expo-speech-recognition:generateReleaseResValues
+> Task :expo-manifests:generateReleaseResources
+> Task :expo-dev-client:dataBindingMergeDependencyArtifactsRelease
+> Task :expo-speech-recognition:generateReleaseResources
+> Task :expo:copyReleaseJniLibsProjectOnly
+> Task :expo-manifests:packageReleaseResources
+> Task :expo-speech-recognition:packageReleaseResources
+> Task :react-native-bootsplash:generateReleaseRFile
+> Task :expo-speech-recognition:parseReleaseLocalResources
+> Task :expo-manifests:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-manifests:generateReleaseBuildConfig
+> Task :expo-dev-menu:javaPreCompileRelease
+
+> Task :app:checkReleaseDuplicateClasses
+WARNING: [Processor] Library '/home/nobin/.gradle/caches/modules-2/files-2.1/com.google.android.exoplayer/exoplayer-ui/2.18.1/eed81d49b8b0e9a365cbec260dafb222d6e5bc67/exoplayer-ui-2.18.1.aar' contains references to both AndroidX and old support library. This seems like the library is partially migrated. Jetifier will try to rewrite the library anyway.
+ Example of androidX reference: 'androidx/core/app/NotificationCompat$Builder'
+ Example of support library reference: 'android/support/v4/media/session/MediaSessionCompat$Token'
+
+> Task :expo-manifests:parseReleaseLocalResources
+> Task :expo-manifests:generateReleaseRFile
+> Task :expo-speech-recognition:javaPreCompileRelease
+> Task :react-native-async-storage_async-storage:javaPreCompileRelease
+> Task :expo-speech-recognition:generateReleaseRFile
+> Task :expo-dev-menu-interface:javaPreCompileRelease
+> Task :expo-manifests:javaPreCompileRelease
+> Task :expo:javaPreCompileRelease
+> Task :expo:writeReleaseAarMetadata
+> Task :expo-dev-menu-interface:writeReleaseAarMetadata
+> Task :expo-json-utils:writeReleaseAarMetadata
+> Task :expo-constants:writeReleaseAarMetadata
+> Task :expo-speech-recognition:writeReleaseAarMetadata
+> Task :expo-manifests:writeReleaseAarMetadata
+> Task :react-native-reanimated:writeReleaseAarMetadata
+> Task :expo-dev-menu:writeReleaseAarMetadata
+> Task :expo-dev-menu:extractDeepLinksRelease
+> Task :expo:extractDeepLinksRelease
+> Task :expo-constants:extractDeepLinksRelease
+> Task :react-native-gesture-handler:writeReleaseAarMetadata
+> Task :expo-dev-menu-interface:extractDeepLinksRelease
+> Task :expo-updates-interface:writeReleaseAarMetadata
+> Task :expo-dev-menu-interface:processReleaseManifest
+> Task :expo:processReleaseManifest
+> Task :expo-constants:processReleaseManifest
+> Task :expo-speech-recognition:extractDeepLinksRelease
+> Task :expo-updates-interface:extractDeepLinksRelease
+> Task :expo-json-utils:extractDeepLinksRelease
+> Task :expo-manifests:extractDeepLinksRelease
+> Task :expo-dev-menu:processReleaseManifest
+> Task :react-native-gesture-handler:extractDeepLinksRelease
+> Task :expo-updates-interface:processReleaseManifest
+> Task :expo-speech-recognition:processReleaseManifest
+> Task :expo-json-utils:processReleaseManifest
+> Task :react-native-reanimated:extractDeepLinksRelease
+> Task :expo-dev-client:dataBindingGenBaseClassesRelease
+> Task :expo-manifests:processReleaseManifest
+> Task :react-native-gesture-handler:processReleaseManifest
+> Task :expo-dev-client:writeReleaseAarMetadata
+> Task :react-native-reanimated:processReleaseManifest
+> Task :expo-dev-client:extractDeepLinksRelease
+> Task :expo:compileReleaseLibraryResources
+> Task :expo-dev-menu-interface:compileReleaseLibraryResources
+> Task :expo-json-utils:compileReleaseLibraryResources
+> Task :expo-dev-client:processReleaseManifest
+> Task :expo-constants:compileReleaseLibraryResources
+> Task :expo-speech-recognition:compileReleaseLibraryResources
+> Task :expo-dev-client:compileReleaseLibraryResources
+> Task :expo-manifests:compileReleaseLibraryResources
+> Task :expo:prepareReleaseArtProfile
+> Task :expo-constants:prepareReleaseArtProfile
+> Task :expo-dev-client:prepareReleaseArtProfile
+> Task :expo-dev-menu:prepareReleaseArtProfile
+> Task :expo-dev-menu-interface:prepareReleaseArtProfile
+> Task :expo-json-utils:prepareReleaseArtProfile
+> Task :expo-manifests:prepareReleaseArtProfile
+> Task :expo-speech-recognition:prepareReleaseArtProfile
+> Task :expo-updates-interface:prepareReleaseArtProfile
+> Task :react-native-gesture-handler:prepareReleaseArtProfile
+> Task :react-native-reanimated:prepareReleaseArtProfile
+> Task :expo-constants:mergeReleaseShaders
+> Task :expo-constants:compileReleaseShaders NO-SOURCE
+> Task :expo-constants:generateReleaseAssets UP-TO-DATE
+> Task :react-native-reanimated:compileReleaseLibraryResources
+> Task :expo-updates-interface:compileReleaseLibraryResources
+> Task :expo:mergeReleaseShaders
+> Task :expo:compileReleaseShaders NO-SOURCE
+> Task :expo:generateReleaseAssets UP-TO-DATE
+> Task :expo-dev-client:mergeReleaseShaders
+> Task :expo-dev-menu:mergeReleaseShaders
+> Task :react-native-gesture-handler:compileReleaseLibraryResources
+> Task :expo-constants:mergeReleaseAssets
+> Task :expo-dev-client:compileReleaseShaders NO-SOURCE
+> Task :expo-dev-client:generateReleaseAssets UP-TO-DATE
+> Task :expo-dev-menu:compileReleaseShaders NO-SOURCE
+> Task :expo-dev-menu:generateReleaseAssets UP-TO-DATE
+> Task :expo-json-utils:mergeReleaseShaders
+> Task :expo-json-utils:compileReleaseShaders NO-SOURCE
+> Task :expo-json-utils:generateReleaseAssets UP-TO-DATE
+> Task :expo:mergeReleaseAssets
+> Task :expo-dev-client:mergeReleaseAssets
+> Task :expo-dev-menu-interface:mergeReleaseShaders
+> Task :expo-json-utils:mergeReleaseAssets
+> Task :expo-manifests:mergeReleaseShaders
+> Task :expo-dev-menu-interface:compileReleaseShaders NO-SOURCE
+> Task :expo-dev-menu:compileReleaseLibraryResources
+> Task :expo-manifests:compileReleaseShaders NO-SOURCE
+> Task :expo-dev-menu-interface:generateReleaseAssets UP-TO-DATE
+> Task :expo-manifests:generateReleaseAssets UP-TO-DATE
+> Task :expo-dev-menu:mergeReleaseAssets
+> Task :expo-manifests:mergeReleaseAssets
+> Task :expo-updates-interface:mergeReleaseShaders
+> Task :react-native-gesture-handler:mergeReleaseShaders
+> Task :react-native-gesture-handler:compileReleaseShaders NO-SOURCE
+> Task :expo-dev-menu-interface:mergeReleaseAssets
+> Task :expo-speech-recognition:mergeReleaseShaders
+> Task :react-native-gesture-handler:generateReleaseAssets UP-TO-DATE
+> Task :expo-updates-interface:compileReleaseShaders NO-SOURCE
+> Task :expo-updates-interface:generateReleaseAssets UP-TO-DATE
+> Task :expo-speech-recognition:compileReleaseShaders NO-SOURCE
+> Task :expo-speech-recognition:generateReleaseAssets UP-TO-DATE
+> Task :expo:extractProguardFiles
+> Task :expo-constants:extractProguardFiles
+> Task :expo-dev-client:extractProguardFiles
+> Task :expo-updates-interface:mergeReleaseAssets
+> Task :react-native-reanimated:mergeReleaseShaders
+> Task :react-native-reanimated:compileReleaseShaders NO-SOURCE
+> Task :react-native-reanimated:generateReleaseAssets UP-TO-DATE
+> Task :react-native-gesture-handler:mergeReleaseAssets
+> Task :expo-dev-menu:extractProguardFiles
+> Task :expo-constants:prepareLintJarForPublish
+> Task :expo-dev-client:prepareLintJarForPublish
+> Task :expo-speech-recognition:mergeReleaseAssets
+> Task :expo-dev-menu-interface:extractProguardFiles
+> Task :expo-dev-menu-interface:prepareLintJarForPublish
+> Task :expo-dev-menu:prepareLintJarForPublish
+> Task :expo-json-utils:extractProguardFiles
+> Task :expo-manifests:extractProguardFiles
+> Task :expo:prepareLintJarForPublish
+> Task :expo-updates-interface:extractProguardFiles
+> Task :expo-speech-recognition:extractProguardFiles
+> Task :expo-json-utils:prepareLintJarForPublish
+> Task :expo-manifests:prepareLintJarForPublish
+> Task :react-native-reanimated:mergeReleaseAssets
+> Task :expo:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-dev-menu:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-speech-recognition:prepareLintJarForPublish
+> Task :react-native-reanimated:processReleaseJavaRes NO-SOURCE
+> Task :react-native-gesture-handler:extractProguardFiles
+> Task :expo-updates-interface:prepareLintJarForPublish
+> Task :expo-dev-menu-interface:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo:copyReleaseJniLibsProjectAndLocalJars
+> Task :expo-dev-menu:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-gesture-handler:prepareLintJarForPublish
+> Task :react-native-reanimated:extractProguardFiles
+> Task :expo:extractDeepLinksForAarRelease
+> Task :react-native-bootsplash:extractDeepLinksRelease
+> Task :react-native-gesture-handler:extractDeepLinksForAarRelease
+> Task :expo-speech-recognition:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-reanimated:prepareLintJarForPublish
+> Task :react-native-bootsplash:writeReleaseAarMetadata
+> Task :expo-dev-menu-interface:extractDeepLinksForAarRelease
+> Task :react-native-reanimated:extractDeepLinksForAarRelease
+> Task :expo-dev-menu-interface:copyReleaseJniLibsProjectAndLocalJars
+> Task :expo-constants:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-dev-menu:extractDeepLinksForAarRelease
+> Task :expo-speech-recognition:copyReleaseJniLibsProjectAndLocalJars
+> Task :expo-constants:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-bootsplash:prepareReleaseArtProfile
+> Task :react-native-safe-area-context:extractDeepLinksRelease
+> Task :react-native-safe-area-context:writeReleaseAarMetadata
+> Task :expo-speech-recognition:extractDeepLinksForAarRelease
+> Task :react-native-bootsplash:compileReleaseLibraryResources
+> Task :expo-constants:extractDeepLinksForAarRelease
+> Task :react-native-bootsplash:processReleaseManifest
+> Task :expo-dev-client:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-manifests:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-dev-client:copyReleaseJniLibsProjectAndLocalJars
+> Task :expo-manifests:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-safe-area-context:prepareReleaseArtProfile
+> Task :expo-dev-client:extractDeepLinksForAarRelease
+> Task :react-native-bootsplash:mergeReleaseShaders
+
+> Task :react-native-safe-area-context:processReleaseManifest
+package="com.th3rdwave.safeareacontext" found in source AndroidManifest.xml: /home/nobin/cybershield/node_modules/react-native-safe-area-context/android/src/main/AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.th3rdwave.safeareacontext" from the source AndroidManifest.xml: /home/nobin/cybershield/node_modules/react-native-safe-area-context/android/src/main/AndroidManifest.xml.
+
+> Task :expo-json-utils:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-bootsplash:compileReleaseShaders NO-SOURCE
+> Task :react-native-bootsplash:generateReleaseAssets UP-TO-DATE
+> Task :expo-manifests:extractDeepLinksForAarRelease
+> Task :react-native-safe-area-context:compileReleaseLibraryResources
+> Task :expo-updates-interface:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-bootsplash:mergeReleaseAssets
+> Task :react-native-safe-area-context:mergeReleaseShaders
+> Task :expo-json-utils:extractDeepLinksForAarRelease
+> Task :react-native-safe-area-context:compileReleaseShaders NO-SOURCE
+> Task :react-native-safe-area-context:generateReleaseAssets UP-TO-DATE
+> Task :expo-constants:writeReleaseLintModelMetadata
+> Task :expo-json-utils:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-bootsplash:extractProguardFiles
+> Task :expo-dev-client:writeReleaseLintModelMetadata
+> Task :expo-updates-interface:extractDeepLinksForAarRelease
+> Task :react-native-bootsplash:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-bootsplash:prepareLintJarForPublish
+> Task :expo-updates-interface:copyReleaseJniLibsProjectAndLocalJars
+> Task :expo-dev-menu:writeReleaseLintModelMetadata
+> Task :react-native-bootsplash:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-bootsplash:extractDeepLinksForAarRelease
+> Task :expo-json-utils:writeReleaseLintModelMetadata
+> Task :expo-dev-menu-interface:writeReleaseLintModelMetadata
+> Task :expo-manifests:writeReleaseLintModelMetadata
+> Task :expo-speech-recognition:writeReleaseLintModelMetadata
+> Task :expo-updates-interface:writeReleaseLintModelMetadata
+> Task :react-native-bootsplash:writeReleaseLintModelMetadata
+> Task :expo:writeReleaseLintModelMetadata
+> Task :react-native-safe-area-context:mergeReleaseAssets
+> Task :react-native-gesture-handler:writeReleaseLintModelMetadata
+> Task :react-native-reanimated:writeReleaseLintModelMetadata
+> Task :react-native-safe-area-context:extractProguardFiles
+> Task :react-native-safe-area-context:prepareLintJarForPublish
+> Task :react-native-safe-area-context:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-safe-area-context:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-safe-area-context:extractDeepLinksForAarRelease
+> Task :react-native-safe-area-context:writeReleaseLintModelMetadata
+> Task :react-native-reanimated:mergeReleaseJavaResource
+
+> Task :react-native-voice_voice:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-async-storage_async-storage:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /home/nobin/cybershield/node_modules/@react-native-async-storage/async-storage/android/src/javaPackage/java/com/reactnativecommunity/asyncstorage/AsyncStoragePackage.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :react-native-voice_voice:writeReleaseAarMetadata
+> Task :react-native-voice_voice:extractDeepLinksRelease
+> Task :react-native-async-storage_async-storage:writeReleaseAarMetadata
+> Task :react-native-async-storage_async-storage:extractDeepLinksRelease
+> Task :react-native-async-storage_async-storage:bundleLibRuntimeToDirRelease
+> Task :react-native-voice_voice:bundleLibRuntimeToDirRelease
+> Task :react-native-voice_voice:compileReleaseLibraryResources
+
+> Task :react-native-voice_voice:processReleaseManifest
+package="com.wenkesj.voice" found in source AndroidManifest.xml: /home/nobin/cybershield/node_modules/@react-native-voice/voice/android/src/main/AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.wenkesj.voice" from the source AndroidManifest.xml: /home/nobin/cybershield/node_modules/@react-native-voice/voice/android/src/main/AndroidManifest.xml.
+
+> Task :react-native-async-storage_async-storage:processReleaseManifest
+package="com.reactnativecommunity.asyncstorage" found in source AndroidManifest.xml: /home/nobin/cybershield/node_modules/@react-native-async-storage/async-storage/android/src/main/AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.reactnativecommunity.asyncstorage" from the source AndroidManifest.xml: /home/nobin/cybershield/node_modules/@react-native-async-storage/async-storage/android/src/main/AndroidManifest.xml.
+
+> Task :react-native-async-storage_async-storage:compileReleaseLibraryResources
+> Task :react-native-voice_voice:prepareReleaseArtProfile
+> Task :react-native-async-storage_async-storage:prepareReleaseArtProfile
+> Task :react-native-voice_voice:mergeReleaseShaders
+> Task :react-native-voice_voice:compileReleaseShaders NO-SOURCE
+> Task :react-native-voice_voice:generateReleaseAssets UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseShaders
+> Task :react-native-async-storage_async-storage:compileReleaseShaders NO-SOURCE
+> Task :react-native-async-storage_async-storage:generateReleaseAssets UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseAssets
+> Task :react-native-voice_voice:mergeReleaseAssets
+> Task :react-native-async-storage_async-storage:processReleaseJavaRes NO-SOURCE
+> Task :react-native-voice_voice:processReleaseJavaRes NO-SOURCE
+> Task :react-native-voice_voice:bundleLibRuntimeToJarRelease
+> Task :react-native-async-storage_async-storage:bundleLibRuntimeToJarRelease
+> Task :react-native-async-storage_async-storage:extractProguardFiles
+> Task :react-native-voice_voice:bundleLibCompileToJarRelease
+> Task :react-native-voice_voice:extractProguardFiles
+> Task :react-native-async-storage_async-storage:bundleLibCompileToJarRelease
+> Task :react-native-async-storage_async-storage:createFullJarRelease
+> Task :react-native-voice_voice:createFullJarRelease
+> Task :app:buildKotlinToolingMetadata
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateReleaseBuildConfig
+> Task :expo-modules-core:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :expo-dev-launcher:dataBindingMergeDependencyArtifactsRelease
+> Task :react-native-screens:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-fast-tflite:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-worklets:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-async-storage_async-storage:generateReleaseLintModel
+> Task :react-native-voice_voice:generateReleaseLintModel
+> Task :react-native-voice_voice:prepareLintJarForPublish
+> Task :react-native-async-storage_async-storage:prepareLintJarForPublish
+> Task :react-native-async-storage_async-storage:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-voice_voice:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-async-storage_async-storage:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-async-storage_async-storage:extractDeepLinksForAarRelease
+> Task :react-native-voice_voice:copyReleaseJniLibsProjectAndLocalJars
+> Task :react-native-voice_voice:extractDeepLinksForAarRelease
+> Task :react-native-voice_voice:extractReleaseAnnotations
+> Task :react-native-async-storage_async-storage:extractReleaseAnnotations
+> Task :react-native-voice_voice:mergeReleaseGeneratedProguardFiles
+> Task :react-native-async-storage_async-storage:mergeReleaseGeneratedProguardFiles
+> Task :react-native-voice_voice:mergeReleaseConsumerProguardFiles
+> Task :react-native-async-storage_async-storage:mergeReleaseConsumerProguardFiles
+> Task :react-native-voice_voice:mergeReleaseJavaResource
+> Task :react-native-async-storage_async-storage:mergeReleaseJavaResource
+> Task :react-native-voice_voice:syncReleaseLibJars
+> Task :react-native-async-storage_async-storage:syncReleaseLibJars
+> Task :react-native-voice_voice:bundleReleaseLocalLintAar
+> Task :react-native-async-storage_async-storage:bundleReleaseLocalLintAar
+> Task :react-native-async-storage_async-storage:writeReleaseLintModelMetadata
+> Task :react-native-voice_voice:writeReleaseLintModelMetadata
+> Task :react-native-async-storage_async-storage:generateReleaseLintVitalModel
+> Task :react-native-voice_voice:generateReleaseLintVitalModel
+> Task :expo-dev-launcher:generateReleaseResValues
+> Task :expo-dev-launcher:generateReleaseResources
+> Task :expo-dev-launcher:packageReleaseResources
+> Task :expo-dev-launcher:generateReleaseBuildConfig
+> Task :expo-dev-launcher:parseReleaseLocalResources
+> Task :expo-dev-launcher:checkApolloVersions
+> Task :react-native-worklets:configureCMakeRelWithDebInfo[armeabi-v7a]
+
+> Task :app:createBundleReleaseJsAndAssets
+React Compiler enabled
+
+> Task :react-native-safe-area-context:compileReleaseKotlin
+> Task :expo-dev-launcher:dataBindingGenBaseClassesRelease
+> Task :expo-dev-launcher:generateReleaseRFile
+
+> Task :app:createBundleReleaseJsAndAssets
+Starting Metro Bundler
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+
+> Task :expo-dev-launcher:generateServiceApolloOptions
+> Task :react-native-worklets:configureCMakeRelWithDebInfo[x86]
+> Task :react-native-bootsplash:compileReleaseKotlin
+> Task :react-native-worklets:configureCMakeRelWithDebInfo[x86_64]
+> Task :react-native-worklets:generateJsonModelRelease
+> Task :react-native-worklets:prefabReleaseConfigurePackage
+> Task :expo-dev-launcher:javaPreCompileRelease
+> Task :expo-dev-launcher:writeReleaseAarMetadata
+> Task :expo-dev-launcher:extractDeepLinksRelease
+> Task :expo-dev-launcher:prepareReleaseArtProfile
+> Task :expo-dev-launcher:processReleaseManifest
+> Task :expo-dev-launcher:mergeReleaseShaders
+> Task :expo-dev-launcher:compileReleaseShaders NO-SOURCE
+> Task :expo-dev-launcher:generateReleaseAssets UP-TO-DATE
+> Task :expo-dev-launcher:compileReleaseLibraryResources
+> Task :expo-dev-launcher:mergeReleaseAssets
+> Task :expo-dev-launcher:extractProguardFiles
+> Task :expo-dev-launcher:prepareLintJarForPublish
+> Task :expo-dev-launcher:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-dev-launcher:copyReleaseJniLibsProjectAndLocalJars
+> Task :expo-dev-launcher:extractDeepLinksForAarRelease
+> Task :expo-dev-launcher:writeReleaseLintModelMetadata
+> Task :react-native-reanimated:configureCMakeRelWithDebInfo[arm64-v8a]
+
+> Task :expo-dev-launcher:generateServiceApolloSources
+w: /home/nobin/cybershield/node_modules/expo-dev-launcher/android/src/main/graphql/GetBranches.graphql: (21, 11): Apollo: Use of deprecated field `runtimeVersion`
+w: /home/nobin/cybershield/node_modules/expo-dev-launcher/android/src/main/graphql/GetBranches.graphql: (34, 3): Apollo: Variable `platform` is unused
+w: /home/nobin/cybershield/node_modules/expo-dev-launcher/android/src/main/graphql/GetUpdates.graphql: (14, 11): Apollo: Use of deprecated field `runtimeVersion`
+
+> Task :react-native-reanimated:configureCMakeRelWithDebInfo[armeabi-v7a]
+> Task :react-native-screens:buildCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-fast-tflite:buildCMakeRelWithDebInfo[arm64-v8a]
+> Task :expo-modules-core:buildCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-voice_voice:lintVitalAnalyzeRelease
+> Task :react-native-async-storage_async-storage:lintVitalAnalyzeRelease
+> Task :react-native-reanimated:configureCMakeRelWithDebInfo[x86]
+
+> Task :react-native-fast-tflite:buildCMakeRelWithDebInfo[arm64-v8a]
+C/C++: ninja: Entering directory `/home/nobin/cybershield/node_modules/react-native-fast-tflite/android/.cxx/RelWithDebInfo/6ne1dr5y/arm64-v8a'
+C/C++: /home/nobin/cybershield/node_modules/react-native-fast-tflite/cpp/TensorflowPlugin.cpp:73:11: warning: ignoring return value of function declared with 'nodiscard' attribute [-Wunused-result]
+C/C++:    73 |           std::async(std::launch::async, [=, &runtime]() {
+C/C++:       |           ^~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    74 |             try {
+C/C++:       |             ~~~~~
+C/C++:    75 |               // Fetch model from URL (JS bundle)
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    76 |               Buffer buffer = fetchURL(modelPath);
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    77 | 
+C/C++:    78 |               // Load Model into Tensorflow
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    79 |               auto model = TfLiteModelCreate(buffer.data, buffer.size);
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    80 |               if (model == nullptr) {
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    81 |                 callInvoker->invokeAsync(
+C/C++:       |                 ~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    82 |                     [=]() { promise->reject("Failed to load model from \"" + modelPath + "\"!"); });
+C/C++:       |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    83 |                 return;
+C/C++:       |                 ~~~~~~~
+C/C++:    84 |               }
+C/C++:       |               ~
+C/C++:    85 | 
+C/C++:    86 |               // Create TensorFlow Interpreter
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    87 |               auto options = TfLiteInterpreterOptionsCreate();
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    88 | 
+C/C++: /home/nobin/cybershield/node_modules/react-native-fast-tflite/cpp/TensorflowPlugin.cpp:317:17: warning: ignoring return value of function declared with 'nodiscard' attribute [-Wunused-result]
+C/C++:   317 |                 std::async(std::launch::async, [=, &runtime]() {
+C/C++:       |                 ^~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:   318 |                   // 2.
+C/C++:       |                   ~~~~~
+C/C++:   319 |                   try {
+C/C++:       |                   ~~~~~
+C/C++:   320 |                     this->run();
+C/C++:       |                     ~~~~~~~~~~~~
+C/C++:   321 | 
+C/C++:   322 |                     this->_callInvoker->invokeAsync([=, &runtime]() {
+C/C++:       |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:   323 |                       // 3.
+C/C++:       |                       ~~~~~
+C/C++:   324 |                       auto result = this->copyOutputBuffers(runtime);
+C/C++:       |                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:   325 |                       promise->resolve(std::move(result));
+C/C++:       |                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:   326 |                     });
+C/C++:       |                     ~~~
+C/C++:   327 |                   } catch (std::exception& error) {
+C/C++:       |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:   328 |                     promise->reject(error.what());
+C/C++:       |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:   329 |                   }
+C/C++:       |                   ~
+C/C++:   330 |                 });
+C/C++:       |                 ~
+C/C++: 2 warnings generated.
+
+> Task :react-native-worklets:buildCMakeRelWithDebInfo[arm64-v8a][worklets]
+> Task :react-native-reanimated:configureCMakeRelWithDebInfo[x86_64]
+> Task :react-native-reanimated:generateJsonModelRelease
+> Task :react-native-reanimated:prefabReleaseConfigurePackage
+> Task :react-native-fast-tflite:configureCMakeRelWithDebInfo[armeabi-v7a]
+
+> Task :app:createBundleReleaseJsAndAssets
+Android node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+
+> Task :react-native-gesture-handler:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-screens:configureCMakeRelWithDebInfo[armeabi-v7a]
+> Task :react-native-gesture-handler:configureCMakeRelWithDebInfo[armeabi-v7a]
+> Task :react-native-gesture-handler:configureCMakeRelWithDebInfo[x86]
+
+> Task :app:createBundleReleaseJsAndAssets
+Android node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  1.0% (1/1)
+
+> Task :react-native-bootsplash:compileReleaseKotlin
+w: file:///home/nobin/cybershield/node_modules/react-native-bootsplash/android/src/main/java/com/zoontek/rnbootsplash/RNBootSplashPackage.kt:3:8 'class TurboReactPackage : BaseReactPackage' is deprecated. Use BaseReactPackage instead.
+w: file:///home/nobin/cybershield/node_modules/react-native-bootsplash/android/src/main/java/com/zoontek/rnbootsplash/RNBootSplashPackage.kt:9:29 'class TurboReactPackage : BaseReactPackage' is deprecated. Use BaseReactPackage instead.
+w: file:///home/nobin/cybershield/node_modules/react-native-bootsplash/android/src/main/java/com/zoontek/rnbootsplash/RNBootSplashPackage.kt:23:24 'constructor(name: String, className: String, canOverrideExistingModule: Boolean, needsEagerInit: Boolean, hasConstants: Boolean, isCxxModule: Boolean, isTurboModule: Boolean): ReactModuleInfo' is deprecated. This constructor is deprecated and will be removed in the future. Use ReactModuleInfo(String, String, boolean, boolean, boolean, boolean)].
+
+> Task :react-native-safe-area-context:compileReleaseKotlin
+w: file:///home/nobin/cybershield/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaView.kt:59:23 'val uiImplementation: UIImplementation!' is deprecated. Deprecated in Java.
+
+> Task :app:createBundleReleaseJsAndAssets
+Android node_modules/expo-router/entry.js ▓▓░░░░░░░░░░░░░░ 16.0% (13/52)
+
+> Task :react-native-gesture-handler:configureCMakeRelWithDebInfo[x86_64]
+
+> Task :app:createBundleReleaseJsAndAssets
+Android node_modules/expo-router/entry.js ▓▓░░░░░░░░░░░░░░ 16.0% (21/76)
+
+> Task :react-native-fast-tflite:buildCMakeRelWithDebInfo[armeabi-v7a]
+> Task :react-native-bootsplash:compileReleaseJavaWithJavac
+> Task :react-native-bootsplash:bundleLibCompileToJarRelease
+> Task :react-native-bootsplash:bundleLibRuntimeToDirRelease
+> Task :react-native-bootsplash:bundleLibRuntimeToJarRelease
+> Task :react-native-bootsplash:processReleaseJavaRes
+> Task :react-native-bootsplash:createFullJarRelease
+> Task :react-native-safe-area-context:compileReleaseJavaWithJavac
+
+> Task :app:createBundleReleaseJsAndAssets
+Android node_modules/expo-router/entry.js ▓▓░░░░░░░░░░░░░░ 16.0% (31/89)
+
+> Task :react-native-safe-area-context:bundleLibRuntimeToDirRelease
+> Task :react-native-safe-area-context:bundleLibCompileToJarRelease
+> Task :react-native-safe-area-context:bundleLibRuntimeToJarRelease
+> Task :react-native-safe-area-context:processReleaseJavaRes
+> Task :react-native-bootsplash:generateReleaseLintModel
+> Task :react-native-safe-area-context:createFullJarRelease
+> Task :react-native-bootsplash:extractReleaseAnnotations
+> Task :react-native-bootsplash:mergeReleaseGeneratedProguardFiles
+> Task :react-native-bootsplash:mergeReleaseConsumerProguardFiles
+> Task :react-native-safe-area-context:generateReleaseLintModel
+> Task :react-native-safe-area-context:extractReleaseAnnotations
+> Task :react-native-bootsplash:generateReleaseLintVitalModel
+> Task :react-native-safe-area-context:mergeReleaseGeneratedProguardFiles
+> Task :react-native-safe-area-context:mergeReleaseConsumerProguardFiles
+> Task :react-native-safe-area-context:generateReleaseLintVitalModel
+
+> Task :app:createBundleReleaseJsAndAssets
+Android node_modules/expo-router/entry.js ▓▓▓░░░░░░░░░░░░░ 22.7% ( 52/111)
+
+> Task :react-native-safe-area-context:mergeReleaseJavaResource
+> Task :react-native-bootsplash:mergeReleaseJavaResource
+> Task :react-native-bootsplash:syncReleaseLibJars
+> Task :react-native-safe-area-context:syncReleaseLibJars
+
+> Task :react-native-fast-tflite:buildCMakeRelWithDebInfo[armeabi-v7a]
+C/C++: ninja: Entering directory `/home/nobin/cybershield/node_modules/react-native-fast-tflite/android/.cxx/RelWithDebInfo/6ne1dr5y/armeabi-v7a'
+C/C++: /home/nobin/cybershield/node_modules/react-native-fast-tflite/cpp/TensorflowPlugin.cpp:73:11: warning: ignoring return value of function declared with 'nodiscard' attribute [-Wunused-result]
+C/C++:    73 |           std::async(std::launch::async, [=, &runtime]() {
+C/C++:       |           ^~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    74 |             try {
+C/C++:       |             ~~~~~
+C/C++:    75 |               // Fetch model from URL (JS bundle)
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    76 |               Buffer buffer = fetchURL(modelPath);
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    77 | 
+C/C++:    78 |               // Load Model into Tensorflow
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    79 |               auto model = TfLiteModelCreate(buffer.data, buffer.size);
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    80 |               if (model == nullptr) {
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    81 |                 callInvoker->invokeAsync(
+C/C++:       |                 ~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    82 |                     [=]() { promise->reject("Failed to load model from \"" + modelPath + "\"!"); });
+C/C++:       |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    83 |                 return;
+C/C++:       |                 ~~~~~~~
+C/C++:    84 |               }
+C/C++:       |               ~
+C/C++:    85 | 
+C/C++:    86 |               // Create TensorFlow Interpreter
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    87 |               auto options = TfLiteInterpreterOptionsCreate();
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    88 | 
+C/C++: /home/nobin/cybershield/node_modules/react-native-fast-tflite/cpp/TensorflowPlugin.cpp:317:17: warning: ignoring return value of function declared with 'nodiscard' attribute [-Wunused-result]
+C/C++:   317 |                 std::async(std::launch::async, [=, &runtime]() {
+C/C++:       |                 ^~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:   318 |                   // 2.
+C/C++:       |                   ~~~~~
+C/C++:   319 |                   try {
+C/C++:       |                   ~~~~~
+C/C++:   320 |                     this->run();
+C/C++:       |                     ~~~~~~~~~~~~
+C/C++:   321 | 
+C/C++:   322 |                     this->_callInvoker->invokeAsync([=, &runtime]() {
+C/C++:       |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:   323 |                       // 3.
+C/C++:       |                       ~~~~~
+C/C++:   324 |                       auto result = this->copyOutputBuffers(runtime);
+C/C++:       |                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:   325 |                       promise->resolve(std::move(result));
+C/C++:       |                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:   326 |                     });
+C/C++:       |                     ~~~
+C/C++:   327 |                   } catch (std::exception& error) {
+C/C++:       |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:   328 |                     promise->reject(error.what());
+C/C++:       |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:   329 |                   }
+C/C++:       |                   ~
+C/C++:   330 |                 });
+C/C++:       |                 ~
+C/C++: 2 warnings generated.
+
+> Task :react-native-safe-area-context:bundleReleaseLocalLintAar
+> Task :react-native-bootsplash:bundleReleaseLocalLintAar
+
+> Task :app:createBundleReleaseJsAndAssets
+Android node_modules/expo-router/entry.js ▓▓▓▓░░░░░░░░░░░░ 28.0% ( 83/158)
+Android node_modules/expo-router/entry.js ▓▓▓▓▓░░░░░░░░░░░ 32.3% (178/319)
+
+> Task :react-native-fast-tflite:configureCMakeRelWithDebInfo[x86]
+> Task :expo-modules-core:configureCMakeRelWithDebInfo[armeabi-v7a]
+> Task :react-native-screens:buildCMakeRelWithDebInfo[armeabi-v7a]
+
+> Task :app:createBundleReleaseJsAndAssets
+Android node_modules/expo-router/entry.js ▓▓▓▓▓▓░░░░░░░░░░ 39.1% (274/452)
+Android node_modules/expo-router/entry.js ▓▓▓▓▓▓▓░░░░░░░░░ 46.5% (345/506)
+Android node_modules/expo-router/entry.js ▓▓▓▓▓▓▓░░░░░░░░░ 48.8% (394/564)
+Android node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓░░░░░░░░ 54.2% (503/683)
+Android node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓░░░░░░░ 59.9% (595/773)
+
+> Task :react-native-bootsplash:lintVitalAnalyzeRelease
+
+> Task :react-native-fast-tflite:buildCMakeRelWithDebInfo[x86]
+C/C++: ninja: Entering directory `/home/nobin/cybershield/node_modules/react-native-fast-tflite/android/.cxx/RelWithDebInfo/6ne1dr5y/x86'
+C/C++: /home/nobin/cybershield/node_modules/react-native-fast-tflite/cpp/TensorflowPlugin.cpp:73:11: warning: ignoring return value of function declared with 'nodiscard' attribute [-Wunused-result]
+C/C++:    73 |           std::async(std::launch::async, [=, &runtime]() {
+C/C++:       |           ^~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    74 |             try {
+C/C++:       |             ~~~~~
+C/C++:    75 |               // Fetch model from URL (JS bundle)
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    76 |               Buffer buffer = fetchURL(modelPath);
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    77 | 
+C/C++:    78 |               // Load Model into Tensorflow
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    79 |               auto model = TfLiteModelCreate(buffer.data, buffer.size);
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    80 |               if (model == nullptr) {
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    81 |                 callInvoker->invokeAsync(
+C/C++:       |                 ~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    82 |                     [=]() { promise->reject("Failed to load model from \"" + modelPath + "\"!"); });
+C/C++:       |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    83 |                 return;
+C/C++:       |                 ~~~~~~~
+C/C++:    84 |               }
+C/C++:       |               ~
+C/C++:    85 | 
+C/C++:    86 |               // Create TensorFlow Interpreter
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    87 |               auto options = TfLiteInterpreterOptionsCreate();
+C/C++:       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:    88 | 
+C/C++: /home/nobin/cybershield/node_modules/react-native-fast-tflite/cpp/TensorflowPlugin.cpp:317:17: warning: ignoring return value of function declared with 'nodiscard' attribute [-Wunused-result]
+C/C++:   317 |                 std::async(std::launch::async, [=, &runtime]() {
+C/C++:       |                 ^~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:   318 |                   // 2.
+C/C++:       |                   ~~~~~
+C/C++:   319 |                   try {
+C/C++:       |                   ~~~~~
+C/C++:   320 |                     this->run();
+C/C++:       |                     ~~~~~~~~~~~~
+C/C++:   321 | 
+C/C++:   322 |                     this->_callInvoker->invokeAsync([=, &runtime]() {
+C/C++:       |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:   323 |                       // 3.
+C/C++:       |                       ~~~~~
+C/C++:   324 |                       auto result = this->copyOutputBuffers(runtime);
+C/C++:       |                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:   325 |                       promise->resolve(std::move(result));
+C/C++:       |                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:   326 |                     });
+C/C++:       |                     ~~~
+C/C++:   327 |                   } catch (std::exception& error) {
+C/C++:       |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:   328 |                     promise->reject(error.what());
+C/C++:       |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:   329 |                   }
+C/C++:       |                   ~
+C/C++:   330 |                 });
+C/C++:       |                 ~
+C/C++: 2 warnings generated.
+
+> Task :expo-modules-core:buildCMakeRelWithDebInfo[armeabi-v7a]
+> Task :react-native-worklets:buildCMakeRelWithDebInfo[armeabi-v7a][worklets]

@@ -1,0 +1,1082 @@
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-module-gradle-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+> Task :expo-module-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-module-gradle-plugin:classes UP-TO-DATE
+> Task :expo-module-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :app
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle': line 85
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('ndkVersion = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_bo64dincjbg2iv7mftkkr6pah$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:85)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_bo64dincjbg2iv7mftkkr6pah.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:84)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle': line 88
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('compileSdk = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_bo64dincjbg2iv7mftkkr6pah$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:88)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_bo64dincjbg2iv7mftkkr6pah.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:84)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle': line 90
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('namespace = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_bo64dincjbg2iv7mftkkr6pah$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:90)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_bo64dincjbg2iv7mftkkr6pah.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:84)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle': line 93
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('checkReleaseBuilds = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_bo64dincjbg2iv7mftkkr6pah$_run_closure2$_closure5.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:93)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_bo64dincjbg2iv7mftkkr6pah$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:92)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle': line 94
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('abortOnError = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_bo64dincjbg2iv7mftkkr6pah$_run_closure2$_closure5.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:94)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_bo64dincjbg2iv7mftkkr6pah$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:92)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle': line 116
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('signingConfig = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_bo64dincjbg2iv7mftkkr6pah$_run_closure2$_closure8$_closure12.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:116)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_bo64dincjbg2iv7mftkkr6pah$_run_closure2$_closure8.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:115)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle': line 121
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('signingConfig = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_bo64dincjbg2iv7mftkkr6pah$_run_closure2$_closure8$_closure13.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:121)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_bo64dincjbg2iv7mftkkr6pah$_run_closure2$_closure8.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:118)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle': line 123
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('shrinkResources = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_bo64dincjbg2iv7mftkkr6pah$_run_closure2$_closure8$_closure13.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:123)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_bo64dincjbg2iv7mftkkr6pah$_run_closure2$_closure8.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:118)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle': line 127
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('crunchPngs = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_bo64dincjbg2iv7mftkkr6pah$_run_closure2$_closure8$_closure13.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:127)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_bo64dincjbg2iv7mftkkr6pah$_run_closure2$_closure8.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:118)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle': line 133
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('useLegacyPackaging = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_bo64dincjbg2iv7mftkkr6pah$_run_closure2$_closure9$_closure14.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:133)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_bo64dincjbg2iv7mftkkr6pah$_run_closure2$_closure9.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:131)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle': line 137
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('ignoreAssetsPattern = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_bo64dincjbg2iv7mftkkr6pah$_run_closure2$_closure10.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:137)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_bo64dincjbg2iv7mftkkr6pah$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\build.gradle:136)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+
+> Configure project :
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\build.gradle': line 19
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('url = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_ukd23xbyohz6gicy6mkimzl7$_run_closure1$_closure3$_closure4.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\build.gradle:19)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_ukd23xbyohz6gicy6mkimzl7$_run_closure1$_closure3.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\build.gradle:19)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+[32m[ExpoRootProject][0m Using the following versions:
+  - buildTools:  [32m36.0.0[0m
+  - minSdk:      [32m24[0m
+  - compileSdk:  [32m36[0m
+  - targetSdk:   [32m36[0m
+  - ndk:         [32m27.1.12297006[0m
+  - kotlin:      [32m2.1.20[0m
+  - ksp:         [32m2.1.20-2.0.1[0m
+
+> Configure project :expo-constants
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-constants\android\build.gradle': line 13
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('canBePublished = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_5yzptso8wnrdlvgq72vfsxbi2$_run_closure1.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-constants\android\build.gradle:13)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_5yzptso8wnrdlvgq72vfsxbi2.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-constants\android\build.gradle:11)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-constants\android\build.gradle': line 17
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('namespace = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_5yzptso8wnrdlvgq72vfsxbi2$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-constants\android\build.gradle:17)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_5yzptso8wnrdlvgq72vfsxbi2.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-constants\android\build.gradle:16)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+
+> Configure project :expo-modules-core
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-modules-core\android\build.gradle': line 67
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('canBePublished = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_9ab2dyhvc2lebqt2eay60y2w6$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-modules-core\android\build.gradle:67)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_9ab2dyhvc2lebqt2eay60y2w6.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-modules-core\android\build.gradle:66)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-modules-core\android\build.gradle': line 75
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('ndkVersion = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_9ab2dyhvc2lebqt2eay60y2w6$_run_closure3.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-modules-core\android\build.gradle:75)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_9ab2dyhvc2lebqt2eay60y2w6.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-modules-core\android\build.gradle:70)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-modules-core\android\build.gradle': line 78
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('namespace = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_9ab2dyhvc2lebqt2eay60y2w6$_run_closure3.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-modules-core\android\build.gradle:78)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_9ab2dyhvc2lebqt2eay60y2w6.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-modules-core\android\build.gradle:70)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-modules-core\android\build.gradle': line 109
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('buildConfig = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_9ab2dyhvc2lebqt2eay60y2w6$_run_closure3$_closure11.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-modules-core\android\build.gradle:109)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_9ab2dyhvc2lebqt2eay60y2w6$_run_closure3.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-modules-core\android\build.gradle:108)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-modules-core\android\build.gradle': line 110
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('prefab = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_9ab2dyhvc2lebqt2eay60y2w6$_run_closure3$_closure11.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-modules-core\android\build.gradle:110)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_9ab2dyhvc2lebqt2eay60y2w6$_run_closure3.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-modules-core\android\build.gradle:108)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-modules-core\android\build.gradle': line 111
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('compose = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_9ab2dyhvc2lebqt2eay60y2w6$_run_closure3$_closure11.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-modules-core\android\build.gradle:111)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_9ab2dyhvc2lebqt2eay60y2w6$_run_closure3.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-modules-core\android\build.gradle:108)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+
+> Configure project :expo-speech-recognition
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-speech-recognition\android\build.gradle': line 35
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('namespace = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_57z6cusycdl5s5xlrpdm62ipe$_run_closure3.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-speech-recognition\android\build.gradle:35)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_57z6cusycdl5s5xlrpdm62ipe.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-speech-recognition\android\build.gradle:34)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-speech-recognition\android\build.gradle': line 41
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('abortOnError = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_57z6cusycdl5s5xlrpdm62ipe$_run_closure3$_closure7.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-speech-recognition\android\build.gradle:41)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_57z6cusycdl5s5xlrpdm62ipe$_run_closure3.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo-speech-recognition\android\build.gradle:40)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+
+> Configure project :expo
+
+Using expo modules
+  - [32mexpo-constants[0m (18.0.10)
+  - [32mexpo-modules-core[0m (3.0.26)
+  - [32mexpo-speech-recognition[0m (0.1.0)
+  - [33m[?][0m [32mexpo-asset[0m (12.0.10)
+  - [33m[?][0m [32mexpo-av[0m (16.0.7)
+  - [33m[?][0m [32mexpo-file-system[0m (19.0.19)
+  - [33m[?][0m [32mexpo-font[0m (14.0.9)
+  - [33m[?][0m [32mexpo-haptics[0m (15.0.7)
+  - [33m[?][0m [32mexpo-image[0m (3.0.10)
+  - [33m[?][0m [32mexpo-keep-awake[0m (15.0.7)
+  - [33m[?][0m [32mexpo-linear-gradient[0m (15.0.7)
+  - [33m[?][0m [32mexpo-linking[0m (8.0.9)
+  - [33m[?][0m [32mexpo-splash-screen[0m (31.0.11)
+  - [33m[?][0m [32mexpo-system-ui[0m (6.0.8)
+  - [33m[?][0m [32mexpo-web-browser[0m (15.0.9)
+
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo\android\build.gradle': line 39
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('canBePublished = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_3zj4p6o4gl75kcfwdcymtwrrp$_run_closure1.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo\android\build.gradle:39)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_3zj4p6o4gl75kcfwdcymtwrrp.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo\android\build.gradle:37)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo\android\build.gradle': line 43
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('namespace = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_3zj4p6o4gl75kcfwdcymtwrrp$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo\android\build.gradle:43)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_3zj4p6o4gl75kcfwdcymtwrrp.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\expo\android\build.gradle:42)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+
+> Configure project :react-native-async-storage_async-storage
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-async-storage\async-storage\android\build.gradle': line 42
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('namespace = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_cuwl1o6v45758owu7o6p3h1jx$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-async-storage\async-storage\android\build.gradle:42)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_cuwl1o6v45758owu7o6p3h1jx.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-async-storage\async-storage\android\build.gradle:39)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-async-storage\async-storage\android\build.gradle': line 44
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('buildConfig = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_cuwl1o6v45758owu7o6p3h1jx$_run_closure2$_closure5.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-async-storage\async-storage\android\build.gradle:44)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_cuwl1o6v45758owu7o6p3h1jx$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-async-storage\async-storage\android\build.gradle:43)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-async-storage\async-storage\android\build.gradle': line 55
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('ndkVersion = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_cuwl1o6v45758owu7o6p3h1jx$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-async-storage\async-storage\android\build.gradle:55)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_cuwl1o6v45758owu7o6p3h1jx.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-async-storage\async-storage\android\build.gradle:39)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-async-storage\async-storage\android\build.gradle': line 68
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('abortOnError = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_cuwl1o6v45758owu7o6p3h1jx$_run_closure2$_closure7.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-async-storage\async-storage\android\build.gradle:68)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_cuwl1o6v45758owu7o6p3h1jx$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-async-storage\async-storage\android\build.gradle:67)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-async-storage\async-storage\android\build.gradle': line 98
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('url = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_cuwl1o6v45758owu7o6p3h1jx$_run_closure3$_closure12.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-async-storage\async-storage\android\build.gradle:98)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_cuwl1o6v45758owu7o6p3h1jx$_run_closure3.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-async-storage\async-storage\android\build.gradle:96)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+
+> Configure project :react-native-bootsplash
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-bootsplash\android\build.gradle': line 31
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('namespace = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_aoscch0j3lfm92j3p3ottfkqi$_run_closure1.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-bootsplash\android\build.gradle:31)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_aoscch0j3lfm92j3p3ottfkqi.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-bootsplash\android\build.gradle:26)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-bootsplash\android\build.gradle': line 34
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('buildConfig = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_aoscch0j3lfm92j3p3ottfkqi$_run_closure1$_closure4.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-bootsplash\android\build.gradle:34)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_aoscch0j3lfm92j3p3ottfkqi$_run_closure1.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-bootsplash\android\build.gradle:33)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-bootsplash\android\build.gradle': line 48
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('abortOnError = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_aoscch0j3lfm92j3p3ottfkqi$_run_closure1$_closure7.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-bootsplash\android\build.gradle:48)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_aoscch0j3lfm92j3p3ottfkqi$_run_closure1.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-bootsplash\android\build.gradle:47)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-bootsplash\android\build.gradle': line 64
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('url = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_aoscch0j3lfm92j3p3ottfkqi$_run_closure2$_closure11.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-bootsplash\android\build.gradle:64)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_aoscch0j3lfm92j3p3ottfkqi$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-bootsplash\android\build.gradle:62)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+
+> Configure project :react-native-gesture-handler
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-gesture-handler\android\build.gradle': line 144
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('ndkVersion = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_ey3utjuvowvkttu0cyfq2wdhj$_run_closure3.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-gesture-handler\android\build.gradle:144)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_ey3utjuvowvkttu0cyfq2wdhj.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-gesture-handler\android\build.gradle:129)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+
+> Configure project :react-native-worklets
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle': line 107
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('version = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_ef6j0js7dckd9j47oiy63hgxu.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle:107)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_5g7gv3gbuho3doprcw609xzzd.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle:360)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle': line 156
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('namespace = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_ef6j0js7dckd9j47oiy63hgxu$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle:156)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_ef6j0js7dckd9j47oiy63hgxu.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle:153)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle': line 162
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('ndkVersion = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_ef6j0js7dckd9j47oiy63hgxu$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle:162)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_ef6j0js7dckd9j47oiy63hgxu.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle:153)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle': line 166
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('prefab = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_ef6j0js7dckd9j47oiy63hgxu$_run_closure2$_closure17.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle:166)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_ef6j0js7dckd9j47oiy63hgxu$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle:165)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle': line 167
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('prefabPublishing = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_ef6j0js7dckd9j47oiy63hgxu$_run_closure2$_closure17.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle:167)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_ef6j0js7dckd9j47oiy63hgxu$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle:165)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle': line 168
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('buildConfig = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_ef6j0js7dckd9j47oiy63hgxu$_run_closure2$_closure17.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle:168)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_ef6j0js7dckd9j47oiy63hgxu$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle:165)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle': line 173
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('headers = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_ef6j0js7dckd9j47oiy63hgxu$_run_closure2$_closure18$_closure27.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle:173)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_ef6j0js7dckd9j47oiy63hgxu$_run_closure2$_closure18.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle:172)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle': line 234
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('abortOnError = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_ef6j0js7dckd9j47oiy63hgxu$_run_closure2$_closure22.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle:234)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_ef6j0js7dckd9j47oiy63hgxu$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-worklets\android\build.gradle:233)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+
+> Configure project :react-native-reanimated
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle': line 130
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('version = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_5g7gv3gbuho3doprcw609xzzd.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle:130)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle': line 162
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('namespace = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_5g7gv3gbuho3doprcw609xzzd$_run_closure1.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle:162)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_5g7gv3gbuho3doprcw609xzzd.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle:159)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle': line 168
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('ndkVersion = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_5g7gv3gbuho3doprcw609xzzd$_run_closure1.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle:168)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_5g7gv3gbuho3doprcw609xzzd.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle:159)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle': line 172
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('prefab = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_5g7gv3gbuho3doprcw609xzzd$_run_closure1$_closure19.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle:172)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_5g7gv3gbuho3doprcw609xzzd$_run_closure1.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle:171)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle': line 173
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('prefabPublishing = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_5g7gv3gbuho3doprcw609xzzd$_run_closure1$_closure19.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle:173)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_5g7gv3gbuho3doprcw609xzzd$_run_closure1.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle:171)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle': line 174
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('buildConfig = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_5g7gv3gbuho3doprcw609xzzd$_run_closure1$_closure19.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle:174)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_5g7gv3gbuho3doprcw609xzzd$_run_closure1.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle:171)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle': line 179
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('headers = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_5g7gv3gbuho3doprcw609xzzd$_run_closure1$_closure20$_closure28.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle:179)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_5g7gv3gbuho3doprcw609xzzd$_run_closure1$_closure20.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle:178)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle': line 228
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('abortOnError = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_5g7gv3gbuho3doprcw609xzzd$_run_closure1$_closure24.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle:228)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_5g7gv3gbuho3doprcw609xzzd$_run_closure1.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-reanimated\android\build.gradle:227)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+
+> Configure project :react-native-safe-area-context
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-safe-area-context\android\build.gradle': line 44
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('namespace = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_2fsefmhfp787xdrnj7fks5ap1$_run_closure1.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-safe-area-context\android\build.gradle:44)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_2fsefmhfp787xdrnj7fks5ap1.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-safe-area-context\android\build.gradle:41)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-safe-area-context\android\build.gradle': line 46
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('buildConfig = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_2fsefmhfp787xdrnj7fks5ap1$_run_closure1$_closure4.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-safe-area-context\android\build.gradle:46)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_2fsefmhfp787xdrnj7fks5ap1$_run_closure1.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-safe-area-context\android\build.gradle:45)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-safe-area-context\android\build.gradle': line 58
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('ndkVersion = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_2fsefmhfp787xdrnj7fks5ap1$_run_closure1.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-safe-area-context\android\build.gradle:58)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_2fsefmhfp787xdrnj7fks5ap1.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-safe-area-context\android\build.gradle:41)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-safe-area-context\android\build.gradle': line 74
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('abortOnError = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_2fsefmhfp787xdrnj7fks5ap1$_run_closure1$_closure6.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-safe-area-context\android\build.gradle:74)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_2fsefmhfp787xdrnj7fks5ap1$_run_closure1.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-safe-area-context\android\build.gradle:73)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-safe-area-context\android\build.gradle': line 114
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('url = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_2fsefmhfp787xdrnj7fks5ap1$_run_closure2$_closure11.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-safe-area-context\android\build.gradle:114)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_2fsefmhfp787xdrnj7fks5ap1$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-safe-area-context\android\build.gradle:112)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+
+> Configure project :react-native-screens
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-screens\android\build.gradle': line 117
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('namespace = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_8pm3u0lgott0u2ogeh3axw4jy$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-screens\android\build.gradle:117)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_8pm3u0lgott0u2ogeh3axw4jy.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-screens\android\build.gradle:115)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-screens\android\build.gradle': line 125
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('ndkVersion = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_8pm3u0lgott0u2ogeh3axw4jy$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-screens\android\build.gradle:125)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_8pm3u0lgott0u2ogeh3axw4jy.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-screens\android\build.gradle:115)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-screens\android\build.gradle': line 147
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('prefab = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_8pm3u0lgott0u2ogeh3axw4jy$_run_closure2$_closure8.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-screens\android\build.gradle:147)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_8pm3u0lgott0u2ogeh3axw4jy$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-screens\android\build.gradle:146)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-screens\android\build.gradle': line 148
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('buildConfig = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_8pm3u0lgott0u2ogeh3axw4jy$_run_closure2$_closure8.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-screens\android\build.gradle:148)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_8pm3u0lgott0u2ogeh3axw4jy$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-screens\android\build.gradle:146)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-screens\android\build.gradle': line 156
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('abortOnError = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_8pm3u0lgott0u2ogeh3axw4jy$_run_closure2$_closure10.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-screens\android\build.gradle:156)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_8pm3u0lgott0u2ogeh3axw4jy$_run_closure2.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-screens\android\build.gradle:155)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-screens\android\build.gradle': line 232
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('url = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_8pm3u0lgott0u2ogeh3axw4jy$_run_closure3$_closure20.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-screens\android\build.gradle:232)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_8pm3u0lgott0u2ogeh3axw4jy$_run_closure3.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\react-native-screens\android\build.gradle:231)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+
+> Configure project :react-native-voice_voice
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-voice\voice\android\build.gradle': line 5
+The RepositoryHandler.jcenter() method has been deprecated. This is scheduled to be removed in Gradle 9.0. JFrog announced JCenter's sunset in February 2021. Use mavenCentral() instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_6.html#jcenter_deprecation
+	at build_649xe74242dmgwkjb751i2vre$_run_closure1.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-voice\voice\android\build.gradle:5)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_649xe74242dmgwkjb751i2vre.run(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-voice\voice\android\build.gradle:3)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-voice\voice\android\build.gradle': line 9
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('url = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_649xe74242dmgwkjb751i2vre$_run_closure1$_closure5.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-voice\voice\android\build.gradle:9)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_649xe74242dmgwkjb751i2vre$_run_closure1.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-voice\voice\android\build.gradle:6)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-voice\voice\android\build.gradle': line 13
+Properties should be assigned using the 'propName = value' syntax. Setting a property via the Gradle-generated 'propName value' or 'propName(value)' syntax in Groovy DSL has been deprecated. This is scheduled to be removed in Gradle 10.0. Use assignment ('url = <value>') instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_8.html#groovy_space_assignment_syntax
+	at build_649xe74242dmgwkjb751i2vre$_run_closure1$_closure6.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-voice\voice\android\build.gradle:13)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_649xe74242dmgwkjb751i2vre$_run_closure1.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-voice\voice\android\build.gradle:11)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+Build file 'C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-voice\voice\android\build.gradle': line 56
+The RepositoryHandler.jcenter() method has been deprecated. This is scheduled to be removed in Gradle 9.0. JFrog announced JCenter's sunset in February 2021. Use mavenCentral() instead. Consult the upgrading guide for further information: https://docs.gradle.org/8.14.3/userguide/upgrading_version_6.html#jcenter_deprecation
+	at build_649xe74242dmgwkjb751i2vre$_run_closure3$_closure10.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-voice\voice\android\build.gradle:56)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+	at build_649xe74242dmgwkjb751i2vre$_run_closure3.doCall$original(C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\node_modules\@react-native-voice\voice\android\build.gradle:55)
+	(Run with --stacktrace to get the full stack trace of this deprecation warning.)
+
+> Task :expo-speech-recognition:preBuild UP-TO-DATE
+> Task :expo-speech-recognition:preReleaseBuild UP-TO-DATE
+> Task :expo-modules-core:preBuild UP-TO-DATE
+> Task :react-native-voice_voice:preBuild UP-TO-DATE
+> Task :expo:generatePackagesList UP-TO-DATE
+> Task :react-native-voice_voice:preReleaseBuild UP-TO-DATE
+> Task :expo:preBuild UP-TO-DATE
+> Task :expo:preReleaseBuild UP-TO-DATE
+> Task :expo-modules-core:preReleaseBuild UP-TO-DATE
+> Task :app:generateAutolinkingNewArchitectureFiles UP-TO-DATE
+> Task :react-native-safe-area-context:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-screens:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-voice_voice:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :expo:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :expo-speech-recognition:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-voice_voice:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-bootsplash:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :expo-speech-recognition:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-async-storage_async-storage:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-gesture-handler:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-voice_voice:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :expo-speech-recognition:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :expo:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :expo:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-speech-recognition:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-voice_voice:generateReleaseBuildConfig UP-TO-DATE
+> Task :expo:generateReleaseBuildConfig UP-TO-DATE
+> Task :expo-speech-recognition:generateReleaseBuildConfig UP-TO-DATE
+> Task :app:generateAutolinkingPackageList UP-TO-DATE
+> Task :react-native-voice_voice:generateReleaseResValues UP-TO-DATE
+> Task :expo-speech-recognition:generateReleaseResValues UP-TO-DATE
+> Task :expo:generateReleaseResValues UP-TO-DATE
+> Task :expo-speech-recognition:generateReleaseResources UP-TO-DATE
+> Task :react-native-voice_voice:generateReleaseResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-screens:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preBuild UP-TO-DATE
+> Task :react-native-screens:preBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preReleaseBuild UP-TO-DATE
+> Task :react-native-screens:preReleaseBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :expo-speech-recognition:packageReleaseResources UP-TO-DATE
+> Task :react-native-voice_voice:packageReleaseResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo:generateReleaseResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :expo-speech-recognition:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-voice_voice:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-bootsplash:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-bootsplash:preBuild UP-TO-DATE
+> Task :react-native-bootsplash:preReleaseBuild UP-TO-DATE
+> Task :expo:packageReleaseResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateReleaseResValues UP-TO-DATE
+> Task :expo-speech-recognition:generateReleaseRFile UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateReleaseResources UP-TO-DATE
+> Task :react-native-bootsplash:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :expo:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-gesture-handler:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-safe-area-context:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :expo-speech-recognition:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-safe-area-context:preBuild UP-TO-DATE
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :react-native-voice_voice:generateReleaseRFile UP-TO-DATE
+> Task :react-native-bootsplash:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo:generateReleaseRFile UP-TO-DATE
+> Task :react-native-async-storage_async-storage:packageReleaseResources UP-TO-DATE
+> Task :react-native-voice_voice:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-safe-area-context:preReleaseBuild UP-TO-DATE
+> Task :react-native-gesture-handler:preBuild UP-TO-DATE
+> Task :expo:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-bootsplash:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :expo-speech-recognition:writeReleaseAarMetadata UP-TO-DATE
+> Task :app:generateReactNativeEntryPoint UP-TO-DATE
+> Task :react-native-gesture-handler:preReleaseBuild UP-TO-DATE
+> Task :react-native-bootsplash:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-gesture-handler:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-safe-area-context:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-gesture-handler:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-speech-recognition:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-async-storage_async-storage:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-safe-area-context:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-gesture-handler:generateReleaseBuildConfig UP-TO-DATE
+> Task :app:buildKotlinToolingMetadata UP-TO-DATE
+> Task :react-native-bootsplash:generateReleaseBuildConfig UP-TO-DATE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-safe-area-context:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-safe-area-context:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-gesture-handler:generateReleaseResValues UP-TO-DATE
+> Task :expo-speech-recognition:processReleaseManifest UP-TO-DATE
+> Task :react-native-bootsplash:generateReleaseResValues UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateReleaseRFile UP-TO-DATE
+> Task :react-native-gesture-handler:generateReleaseResources UP-TO-DATE
+> Task :expo-speech-recognition:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:javaPreCompileRelease UP-TO-DATE
+> Task :expo:processReleaseManifest UP-TO-DATE
+> Task :react-native-safe-area-context:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-safe-area-context:generateReleaseResValues UP-TO-DATE
+> Task :expo:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-bootsplash:generateReleaseResources UP-TO-DATE
+> Task :expo-speech-recognition:prepareReleaseArtProfile UP-TO-DATE
+> Task :expo:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-safe-area-context:generateReleaseResources UP-TO-DATE
+> Task :expo-speech-recognition:mergeReleaseShaders UP-TO-DATE
+> Task :expo:mergeReleaseShaders UP-TO-DATE
+> Task :expo-speech-recognition:compileReleaseShaders NO-SOURCE
+> Task :expo-speech-recognition:generateReleaseAssets UP-TO-DATE
+> Task :expo-speech-recognition:mergeReleaseAssets UP-TO-DATE
+> Task :expo-speech-recognition:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-safe-area-context:packageReleaseResources UP-TO-DATE
+> Task :expo:compileReleaseShaders NO-SOURCE
+> Task :expo:generateReleaseAssets UP-TO-DATE
+> Task :react-native-voice_voice:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-gesture-handler:packageReleaseResources UP-TO-DATE
+> Task :react-native-bootsplash:packageReleaseResources UP-TO-DATE
+> Task :react-native-safe-area-context:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-voice_voice:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :expo-speech-recognition:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-bootsplash:parseReleaseLocalResources UP-TO-DATE
+> Task :expo:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-voice_voice:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-gesture-handler:parseReleaseLocalResources UP-TO-DATE
+> Task :expo-speech-recognition:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-safe-area-context:generateReleaseRFile UP-TO-DATE
+> Task :expo:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-voice_voice:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-bootsplash:generateReleaseRFile UP-TO-DATE
+> Task :expo-speech-recognition:prepareLintJarForPublish UP-TO-DATE
+> Task :expo:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-gesture-handler:generateReleaseRFile UP-TO-DATE
+> Task :react-native-voice_voice:processReleaseManifest UP-TO-DATE
+> Task :expo:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-gesture-handler:javaPreCompileRelease UP-TO-DATE
+> Task :expo:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-gesture-handler:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-voice_voice:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-gesture-handler:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-voice_voice:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-async-storage_async-storage:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-async-storage_async-storage:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-voice_voice:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-gesture-handler:processReleaseManifest UP-TO-DATE
+> Task :react-native-async-storage_async-storage:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-voice_voice:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :react-native-gesture-handler:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-voice_voice:mergeReleaseShaders UP-TO-DATE
+> Task :react-native-async-storage_async-storage:processReleaseManifest UP-TO-DATE
+> Task :react-native-voice_voice:compileReleaseShaders NO-SOURCE
+> Task :react-native-voice_voice:generateReleaseAssets UP-TO-DATE
+> Task :react-native-gesture-handler:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-async-storage_async-storage:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-voice_voice:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-async-storage_async-storage:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-gesture-handler:mergeReleaseShaders UP-TO-DATE
+> Task :react-native-gesture-handler:compileReleaseShaders NO-SOURCE
+> Task :react-native-gesture-handler:generateReleaseAssets UP-TO-DATE
+> Task :react-native-voice_voice:processReleaseJavaRes NO-SOURCE
+> Task :react-native-async-storage_async-storage:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-voice_voice:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-async-storage_async-storage:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :react-native-voice_voice:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseShaders UP-TO-DATE
+> Task :react-native-voice_voice:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-async-storage_async-storage:compileReleaseShaders NO-SOURCE
+> Task :react-native-async-storage_async-storage:generateReleaseAssets UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-async-storage_async-storage:processReleaseJavaRes NO-SOURCE
+> Task :react-native-async-storage_async-storage:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-async-storage_async-storage:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-voice_voice:extractReleaseAnnotations UP-TO-DATE
+> Task :react-native-async-storage_async-storage:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-voice_voice:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :expo-modules-core:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-voice_voice:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :react-native-voice_voice:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-screens:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-voice_voice:mergeReleaseJavaResource UP-TO-DATE
+> Task :react-native-voice_voice:syncReleaseLibJars UP-TO-DATE
+> Task :react-native-async-storage_async-storage:extractReleaseAnnotations UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-voice_voice:bundleReleaseAar UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :react-native-async-storage_async-storage:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseJavaResource UP-TO-DATE
+> Task :react-native-voice_voice:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :react-native-async-storage_async-storage:syncReleaseLibJars UP-TO-DATE
+> Task :react-native-async-storage_async-storage:bundleReleaseAar UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :react-native-bootsplash:compileReleaseKotlin UP-TO-DATE
+> Task :react-native-bootsplash:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-bootsplash:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-bootsplash:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-bootsplash:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-bootsplash:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-gesture-handler:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-gesture-handler:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-bootsplash:processReleaseManifest UP-TO-DATE
+> Task :react-native-gesture-handler:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-bootsplash:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-bootsplash:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-bootsplash:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-voice_voice:mergeReleaseResources UP-TO-DATE
+> Task :react-native-bootsplash:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :react-native-bootsplash:mergeReleaseShaders UP-TO-DATE
+> Task :react-native-bootsplash:compileReleaseShaders NO-SOURCE
+> Task :react-native-bootsplash:generateReleaseAssets UP-TO-DATE
+> Task :react-native-bootsplash:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseResources UP-TO-DATE
+> Task :react-native-bootsplash:processReleaseJavaRes UP-TO-DATE
+> Task :react-native-bootsplash:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-bootsplash:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-bootsplash:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :app:createBundleReleaseJsAndAssets UP-TO-DATE
+> Task :react-native-voice_voice:verifyReleaseResources UP-TO-DATE
+> Task :react-native-voice_voice:assembleRelease UP-TO-DATE
+> Task :react-native-bootsplash:extractReleaseAnnotations UP-TO-DATE
+> Task :react-native-async-storage_async-storage:verifyReleaseResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:assembleRelease UP-TO-DATE
+> Task :react-native-bootsplash:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-bootsplash:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :react-native-screens:buildCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-bootsplash:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-bootsplash:mergeReleaseJavaResource UP-TO-DATE
+> Task :react-native-bootsplash:syncReleaseLibJars UP-TO-DATE
+> Task :expo-modules-core:buildCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-safe-area-context:compileReleaseKotlin UP-TO-DATE
+> Task :react-native-bootsplash:bundleReleaseAar UP-TO-DATE
+> Task :react-native-safe-area-context:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-bootsplash:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :react-native-reanimated:assertMinimalReactNativeVersionTask
+> Task :react-native-reanimated:assertNewArchitectureEnabledTask SKIPPED
+> Task :react-native-worklets:assertMinimalReactNativeVersionTask
+> Task :react-native-worklets:assertNewArchitectureEnabledTask SKIPPED
+> Task :react-native-safe-area-context:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-worklets:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-safe-area-context:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-safe-area-context:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-worklets:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-safe-area-context:processReleaseManifest UP-TO-DATE
+> Task :react-native-safe-area-context:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-safe-area-context:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :react-native-worklets:prepareWorkletsHeadersForPrefabs UP-TO-DATE
+> Task :react-native-worklets:preBuild
+> Task :react-native-worklets:preReleaseBuild
+> Task :react-native-safe-area-context:mergeReleaseShaders UP-TO-DATE
+> Task :react-native-safe-area-context:compileReleaseShaders NO-SOURCE
+> Task :react-native-safe-area-context:generateReleaseAssets UP-TO-DATE
+> Task :react-native-safe-area-context:mergeReleaseAssets UP-TO-DATE
+> Task :expo-modules-core:configureCMakeRelWithDebInfo[armeabi-v7a]
+> Task :react-native-screens:configureCMakeRelWithDebInfo[armeabi-v7a]
+> Task :react-native-safe-area-context:processReleaseJavaRes UP-TO-DATE
+> Task :react-native-safe-area-context:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-safe-area-context:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-safe-area-context:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-safe-area-context:extractReleaseAnnotations UP-TO-DATE
+> Task :react-native-safe-area-context:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-safe-area-context:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :react-native-safe-area-context:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-bootsplash:mergeReleaseResources UP-TO-DATE
+> Task :react-native-safe-area-context:mergeReleaseJavaResource UP-TO-DATE
+> Task :react-native-safe-area-context:syncReleaseLibJars UP-TO-DATE
+> Task :react-native-safe-area-context:bundleReleaseAar UP-TO-DATE
+> Task :react-native-safe-area-context:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :react-native-worklets:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-bootsplash:verifyReleaseResources UP-TO-DATE
+> Task :react-native-bootsplash:assembleRelease UP-TO-DATE
+> Task :react-native-worklets:configureCMakeRelWithDebInfo[armeabi-v7a]
+> Task :react-native-safe-area-context:mergeReleaseResources UP-TO-DATE
+> Task :react-native-safe-area-context:verifyReleaseResources UP-TO-DATE
+> Task :react-native-safe-area-context:assembleRelease UP-TO-DATE
+> Task :react-native-screens:buildCMakeRelWithDebInfo[armeabi-v7a]
+> Task :react-native-worklets:configureCMakeRelWithDebInfo[x86]
+> Task :expo-modules-core:buildCMakeRelWithDebInfo[armeabi-v7a]
+> Task :react-native-screens:configureCMakeRelWithDebInfo[x86]
+> Task :react-native-worklets:configureCMakeRelWithDebInfo[x86_64]
+> Task :react-native-worklets:generateJsonModelRelease
+> Task :react-native-reanimated:assertWorkletsVersionTask
+> Task :react-native-worklets:prefabReleaseConfigurePackage UP-TO-DATE
+> Task :react-native-reanimated:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :expo-modules-core:configureCMakeRelWithDebInfo[x86]
+> Task :react-native-reanimated:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-reanimated:prepareReanimatedHeadersForPrefabs UP-TO-DATE
+> Task :react-native-reanimated:preBuild
+> Task :react-native-reanimated:preReleaseBuild
+> Task :react-native-screens:buildCMakeRelWithDebInfo[x86]
+> Task :expo-modules-core:buildCMakeRelWithDebInfo[x86]
+> Task :react-native-screens:configureCMakeRelWithDebInfo[x86_64]
+> Task :expo-modules-core:configureCMakeRelWithDebInfo[x86_64]
+> Task :react-native-worklets:buildCMakeRelWithDebInfo[arm64-v8a][worklets]
+> Task :react-native-screens:buildCMakeRelWithDebInfo[x86_64]
+> Task :react-native-screens:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-screens:mergeReleaseNativeLibs UP-TO-DATE
+> Task :react-native-screens:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-screens:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-screens:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-screens:generateReleaseResValues UP-TO-DATE
+> Task :react-native-screens:generateReleaseResources UP-TO-DATE
+> Task :react-native-screens:packageReleaseResources UP-TO-DATE
+> Task :react-native-screens:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-screens:generateReleaseRFile UP-TO-DATE
+> Task :expo-modules-core:buildCMakeRelWithDebInfo[x86_64]
+> Task :expo-modules-core:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :expo-modules-core:mergeReleaseNativeLibs UP-TO-DATE
+> Task :expo-modules-core:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :expo-modules-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-modules-core:generateReleaseBuildConfig UP-TO-DATE
+> Task :expo-modules-core:generateReleaseResValues UP-TO-DATE
+> Task :expo-modules-core:generateReleaseResources UP-TO-DATE
+> Task :expo-modules-core:packageReleaseResources UP-TO-DATE
+> Task :expo-modules-core:parseReleaseLocalResources UP-TO-DATE
+> Task :expo-modules-core:generateReleaseRFile UP-TO-DATE
+> Task :expo-speech-recognition:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :react-native-screens:compileReleaseKotlin UP-TO-DATE
+> Task :expo-speech-recognition:mergeReleaseResources UP-TO-DATE
+> Task :react-native-screens:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-screens:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-screens:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-screens:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-screens:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-screens:processReleaseManifest UP-TO-DATE
+> Task :react-native-screens:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-screens:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-screens:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-screens:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :react-native-worklets:buildCMakeRelWithDebInfo[armeabi-v7a][worklets]
+> Task :react-native-screens:mergeReleaseShaders UP-TO-DATE
+> Task :react-native-screens:compileReleaseShaders NO-SOURCE
+> Task :react-native-screens:generateReleaseAssets UP-TO-DATE
+> Task :react-native-screens:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-screens:processReleaseJavaRes UP-TO-DATE
+> Task :react-native-screens:stripReleaseDebugSymbols UP-TO-DATE
+> Task :react-native-screens:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-screens:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-screens:extractReleaseAnnotations UP-TO-DATE
+> Task :react-native-screens:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-screens:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :react-native-screens:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-screens:mergeReleaseJavaResource UP-TO-DATE
+> Task :react-native-screens:syncReleaseLibJars UP-TO-DATE
+> Task :react-native-screens:bundleReleaseAar UP-TO-DATE
+> Task :react-native-screens:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :expo-modules-core:compileReleaseKotlin UP-TO-DATE
+> Task :expo-modules-core:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-screens:mergeReleaseResources UP-TO-DATE
+> Task :expo-modules-core:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :expo-modules-core:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-screens:verifyReleaseResources UP-TO-DATE
+> Task :react-native-screens:assembleRelease UP-TO-DATE
+> Task :expo-modules-core:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :expo-modules-core:writeReleaseAarMetadata UP-TO-DATE
+> Task :expo-modules-core:extractDeepLinksRelease UP-TO-DATE
+> Task :expo-modules-core:processReleaseManifest UP-TO-DATE
+> Task :expo-modules-core:compileReleaseLibraryResources UP-TO-DATE
+> Task :expo-modules-core:prepareReleaseArtProfile UP-TO-DATE
+> Task :expo-modules-core:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :expo-modules-core:mergeReleaseShaders UP-TO-DATE
+> Task :expo-modules-core:compileReleaseShaders NO-SOURCE
+> Task :expo-modules-core:generateReleaseAssets UP-TO-DATE
+> Task :expo-modules-core:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-worklets:buildCMakeRelWithDebInfo[x86][worklets]
+> Task :expo-modules-core:processReleaseJavaRes UP-TO-DATE
+> Task :expo-modules-core:stripReleaseDebugSymbols UP-TO-DATE
+> Task :expo-speech-recognition:compileReleaseKotlin UP-TO-DATE
+> Task :expo-modules-core:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :expo-modules-core:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :expo-speech-recognition:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :expo-speech-recognition:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :expo-modules-core:extractReleaseAnnotations UP-TO-DATE
+> Task :expo-speech-recognition:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :expo-speech-recognition:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :expo-modules-core:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :expo-modules-core:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :expo-speech-recognition:processReleaseJavaRes UP-TO-DATE
+> Task :expo-modules-core:prepareLintJarForPublish UP-TO-DATE
+> Task :expo-modules-core:mergeReleaseJavaResource UP-TO-DATE
+> Task :expo-speech-recognition:extractReleaseAnnotations UP-TO-DATE
+> Task :expo-modules-core:syncReleaseLibJars UP-TO-DATE
+> Task :expo-speech-recognition:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :expo-modules-core:bundleReleaseAar UP-TO-DATE
+> Task :expo-speech-recognition:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :expo-speech-recognition:mergeReleaseJavaResource UP-TO-DATE
+> Task :expo-speech-recognition:syncReleaseLibJars UP-TO-DATE
+> Task :expo-modules-core:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :expo-speech-recognition:bundleReleaseAar UP-TO-DATE
+> Task :expo-speech-recognition:verifyReleaseResources UP-TO-DATE
+> Task :expo-speech-recognition:assembleRelease UP-TO-DATE
+> Task :expo-modules-core:mergeReleaseResources UP-TO-DATE
+> Task :expo-modules-core:verifyReleaseResources UP-TO-DATE
+> Task :expo-modules-core:assembleRelease UP-TO-DATE
+> Task :react-native-worklets:buildCMakeRelWithDebInfo[x86_64][worklets]
+> Task :react-native-worklets:externalNativeBuildRelease
+> Task :react-native-worklets:prefabReleasePackage UP-TO-DATE
+> Task :react-native-worklets:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-worklets:mergeReleaseNativeLibs UP-TO-DATE
+> Task :react-native-worklets:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-worklets:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-worklets:generateReleaseResValues UP-TO-DATE
+> Task :react-native-worklets:generateReleaseResources UP-TO-DATE
+> Task :react-native-worklets:packageReleaseResources UP-TO-DATE
+> Task :react-native-worklets:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-worklets:generateReleaseRFile UP-TO-DATE
+> Task :react-native-worklets:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-worklets:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-worklets:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-worklets:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-worklets:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-worklets:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-worklets:processReleaseManifest UP-TO-DATE
+> Task :react-native-worklets:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-worklets:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-worklets:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :react-native-worklets:mergeReleaseShaders UP-TO-DATE
+> Task :react-native-worklets:compileReleaseShaders NO-SOURCE
+> Task :react-native-worklets:generateReleaseAssets UP-TO-DATE
+> Task :react-native-worklets:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-worklets:processReleaseJavaRes NO-SOURCE
+> Task :react-native-worklets:stripReleaseDebugSymbols UP-TO-DATE
+> Task :react-native-worklets:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-worklets:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-worklets:extractReleaseAnnotations UP-TO-DATE
+> Task :react-native-worklets:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-worklets:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :react-native-worklets:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-worklets:mergeReleaseJavaResource UP-TO-DATE
+> Task :react-native-worklets:syncReleaseLibJars UP-TO-DATE
+> Task :react-native-worklets:bundleReleaseAar UP-TO-DATE
+> Task :react-native-worklets:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :react-native-reanimated:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-reanimated:configureCMakeRelWithDebInfo[armeabi-v7a]
+> Task :react-native-worklets:mergeReleaseResources UP-TO-DATE
+> Task :react-native-worklets:verifyReleaseResources UP-TO-DATE
+> Task :react-native-worklets:assembleRelease UP-TO-DATE
+> Task :react-native-reanimated:configureCMakeRelWithDebInfo[x86]
+> Task :react-native-reanimated:configureCMakeRelWithDebInfo[x86_64]
+> Task :react-native-reanimated:generateJsonModelRelease
+> Task :react-native-reanimated:prefabReleaseConfigurePackage UP-TO-DATE
+> Task :react-native-reanimated:buildCMakeRelWithDebInfo[arm64-v8a][reanimated]
+
+> Task :expo-constants:createExpoConfig
+The NODE_ENV environment variable is required but was not specified. Ensure the project is bundled with Expo CLI or NODE_ENV is set. Using only .env.local and .env
+
+> Task :expo-constants:preBuild
+> Task :app:preBuild
+> Task :expo-constants:preReleaseBuild
+> Task :app:preReleaseBuild
+> Task :expo-constants:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :expo-constants:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-constants:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :expo-constants:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-constants:generateReleaseBuildConfig UP-TO-DATE
+> Task :expo-constants:generateReleaseResValues UP-TO-DATE
+> Task :expo-constants:generateReleaseResources UP-TO-DATE
+> Task :expo-constants:packageReleaseResources UP-TO-DATE
+> Task :expo-constants:parseReleaseLocalResources UP-TO-DATE
+> Task :expo-constants:generateReleaseRFile UP-TO-DATE
+> Task :expo:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :expo-constants:compileReleaseKotlin UP-TO-DATE
+> Task :expo-constants:javaPreCompileRelease UP-TO-DATE
+> Task :expo-constants:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :expo:mergeReleaseResources UP-TO-DATE
+> Task :expo-constants:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :expo-constants:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :expo-constants:writeReleaseAarMetadata UP-TO-DATE
+> Task :expo-constants:extractDeepLinksRelease UP-TO-DATE
+> Task :expo-constants:processReleaseManifest UP-TO-DATE
+> Task :expo-constants:compileReleaseLibraryResources UP-TO-DATE
+> Task :expo-constants:prepareReleaseArtProfile UP-TO-DATE
+> Task :expo-constants:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :expo-constants:mergeReleaseShaders UP-TO-DATE
+> Task :expo-constants:compileReleaseShaders NO-SOURCE
+> Task :expo-constants:generateReleaseAssets UP-TO-DATE
+> Task :expo-constants:mergeReleaseAssets UP-TO-DATE
+> Task :expo-constants:processReleaseJavaRes UP-TO-DATE
+> Task :expo-constants:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-constants:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :expo-constants:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :expo-constants:extractReleaseAnnotations UP-TO-DATE
+> Task :expo-constants:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :expo-constants:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :expo-constants:prepareLintJarForPublish UP-TO-DATE
+> Task :expo-constants:mergeReleaseJavaResource UP-TO-DATE
+> Task :expo-constants:syncReleaseLibJars UP-TO-DATE
+> Task :expo-constants:bundleReleaseAar UP-TO-DATE
+> Task :expo-constants:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :expo-constants:mergeReleaseResources UP-TO-DATE
+> Task :expo-constants:verifyReleaseResources UP-TO-DATE
+> Task :expo-constants:assembleRelease UP-TO-DATE
+> Task :expo:compileReleaseKotlin UP-TO-DATE
+> Task :expo:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :expo:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :expo:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :expo:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :react-native-reanimated:buildCMakeRelWithDebInfo[armeabi-v7a][reanimated]
+> Task :expo:processReleaseJavaRes
+> Task :expo:extractReleaseAnnotations
+> Task :expo:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :expo:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :expo:mergeReleaseJavaResource UP-TO-DATE
+> Task :expo:syncReleaseLibJars UP-TO-DATE
+> Task :expo:bundleReleaseAar
+> Task :expo:verifyReleaseResources UP-TO-DATE
+> Task :expo:assembleRelease
+> Task :react-native-reanimated:buildCMakeRelWithDebInfo[x86][reanimated]
+> Task :react-native-reanimated:buildCMakeRelWithDebInfo[x86_64][reanimated]
+> Task :react-native-gesture-handler:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :app:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-reanimated:externalNativeBuildRelease
+> Task :react-native-gesture-handler:configureCMakeRelWithDebInfo[armeabi-v7a]
+> Task :react-native-reanimated:prefabReleasePackage UP-TO-DATE
+> Task :react-native-reanimated:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-reanimated:mergeReleaseNativeLibs UP-TO-DATE
+> Task :app:configureCMakeRelWithDebInfo[armeabi-v7a]
+> Task :react-native-reanimated:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-reanimated:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-reanimated:generateReleaseResValues UP-TO-DATE
+> Task :react-native-reanimated:generateReleaseResources UP-TO-DATE
+> Task :react-native-reanimated:packageReleaseResources UP-TO-DATE
+> Task :react-native-reanimated:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-reanimated:generateReleaseRFile UP-TO-DATE
+> Task :react-native-reanimated:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-gesture-handler:configureCMakeRelWithDebInfo[x86]
+> Task :react-native-reanimated:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-reanimated:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-reanimated:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-reanimated:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-reanimated:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-reanimated:processReleaseManifest UP-TO-DATE
+> Task :react-native-reanimated:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-reanimated:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-reanimated:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :react-native-reanimated:mergeReleaseShaders UP-TO-DATE
+> Task :react-native-reanimated:compileReleaseShaders NO-SOURCE
+> Task :react-native-reanimated:generateReleaseAssets UP-TO-DATE
+> Task :react-native-reanimated:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-reanimated:processReleaseJavaRes NO-SOURCE
+> Task :react-native-reanimated:stripReleaseDebugSymbols UP-TO-DATE
+> Task :react-native-reanimated:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-reanimated:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-reanimated:extractReleaseAnnotations UP-TO-DATE
+> Task :react-native-reanimated:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-reanimated:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :react-native-reanimated:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-reanimated:mergeReleaseJavaResource UP-TO-DATE
+> Task :react-native-reanimated:syncReleaseLibJars UP-TO-DATE
+> Task :react-native-reanimated:bundleReleaseAar UP-TO-DATE
+> Task :react-native-reanimated:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :react-native-gesture-handler:buildCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-reanimated:mergeReleaseResources UP-TO-DATE
+> Task :react-native-reanimated:verifyReleaseResources UP-TO-DATE
+
+> Task :app:buildCMakeRelWithDebInfo[arm64-v8a] FAILED
+C/C++: ninja: error: Stat(safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/C_/Users/MY_LENOVO_LOQ/Documents/Projects/cybershield/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/safeareacontextJSI-generated.cpp.o): Filename longer than 260 characters
+
+> Task :react-native-reanimated:assembleRelease UP-TO-DATE
+> Task :react-native-gesture-handler:buildCMakeRelWithDebInfo[armeabi-v7a]
+
+[Incubating] Problems report is available at: file:///C:/Users/MY%20LENOVO%20LOQ/Documents/Projects/cybershield/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:buildCMakeRelWithDebInfo[arm64-v8a]'.
+> com.android.ide.common.process.ProcessException: ninja: Entering directory `C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app\.cxx\RelWithDebInfo\1u2c3t33\arm64-v8a'
+  [0/2] Re-checking globbed directories...
+  
+  C++ build system [build] failed while executing:
+      @echo off
+      "C:\\Users\\MY LENOVO LOQ\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+        -C ^
+        "C:\\Users\\MY LENOVO LOQ\\Documents\\Projects\\cybershield\\android\\app\\.cxx\\RelWithDebInfo\\1u2c3t33\\arm64-v8a" ^
+        appmodules ^
+        react_codegen_rnscreens ^
+        react_codegen_safeareacontext
+    from C:\Users\MY LENOVO LOQ\Documents\Projects\cybershield\android\app
+  ninja: error: Stat(safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/C_/Users/MY_LENOVO_LOQ/Documents/Projects/cybershield/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/safeareacontextJSI-generated.cpp.o): Filename longer than 260 characters
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 9s
+487 actionable tasks: 49 executed, 438 up-to-date
