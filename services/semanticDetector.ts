@@ -350,7 +350,7 @@ export class EnhancedTextPreprocessor {
             category: "competence_attack"
         },
         {
-            pattern: /\b(you|u|you're|youre|ur) (are|r) (so |really |very |such a |such an )?(stupid|dumb|idiot|moron|retard|retarded|imbecile|fool|foolish)\b/i,
+            pattern: /\b(you|u|you're|youre|ur) (are|r) (so |really |very |a |an |such a |such an )?(stupid|dumb|idiot|moron|retard|retarded|imbecile|fool|foolish)\b/i,
             meaning: "Direct intelligence insult - calling someone stupid/dumb/idiot",
             severity: 0.78,
             category: "intelligence_attack"
@@ -362,8 +362,8 @@ export class EnhancedTextPreprocessor {
             category: "intelligence_attack"
         },
         {
-            pattern: /\b(so|such a|what a|you're a) (stupid|dumb|idiot|moron) (person|kid|boy|girl|guy)\b/i,
-            meaning: "Labeling as stupid/dumb person",
+            pattern: /\b(so|such a|what a|you're a|you are a|u are a) (stupid|dumb|idiot|moron|bad) (person|kid|boy|girl|guy)\b/i,
+            meaning: "Labeling as stupid/dumb/bad person",
             severity: 0.76,
             category: "intelligence_attack"
         },
@@ -396,6 +396,12 @@ export class EnhancedTextPreprocessor {
             meaning: "Labeling as loser/failure",
             severity: 0.78,
             category: "shaming"
+        },
+        {
+            pattern: /\b(you|u) (are|r) (a |an )?(bad|terrible|awful|horrible|stupid|dumb|useless|worthless)\b/i,
+            meaning: "Direct negative labeling with article",
+            severity: 0.72,
+            category: "insult"
         },
 
         // Social rejection
@@ -1234,11 +1240,29 @@ export class CyberbullyDetector {
     }
 
     /**
+     * Detect negation patterns to avoid false positives
+     */
+    private hasNegation(text: string): boolean {
+        // Check for negation words before toxic words
+        // "you are not a bad boy" should NOT be flagged
+        const negationPatterns = [
+            /\b(not|no|never|neither|nobody|nothing|nowhere|dont|don't|doesn't|doesnt|didn't|didnt|won't|wont|wouldn't|wouldnt|isn't|isnt|aren't|arent)\s+(a|an|so|very|really)?\s*(bad|stupid|dumb|idiot|fool|loser|worthless|useless)/i,
+            /\b(you|u)\s+(are|r)\s+(not|never|no)\s+(a|an)?\s*(bad|stupid|dumb|idiot|fool|loser|worthless|useless)/i,
+            /\b(you|u)\s+(aren't|arent|are not)\s+(a|an)?\s*(bad|stupid|dumb|idiot|fool|loser|worthless|useless)/i
+        ];
+        
+        return negationPatterns.some(pattern => pattern.test(text));
+    }
+
+    /**
      * Analyze each word individually for toxicity
      */
     private analyzeWords(tokens: string[], originalText: string = ""): WordAnalysis[] {
         const analyses: WordAnalysis[] = [];
         const textLower = originalText.toLowerCase();
+        
+        // Check for negation - if present, reduce toxicity drastically
+        const hasNegationContext = this.hasNegation(textLower);
         
         // Check for personal context (directed at a person)
         const hasPersonalPronouns = /\b(you|your|you're|youre|ur|u are)\b/i.test(textLower);
@@ -1257,8 +1281,8 @@ export class CyberbullyDetector {
                 reasons: []
             };
 
-            // Skip critical/high severity words if in technical/object context
-            const skipDueToContext = (hasTechContext || hasObjectContext) && !hasPersonalPronouns;
+            // Skip critical/high severity words if in technical/object context OR if negated
+            const skipDueToContext = ((hasTechContext || hasObjectContext) && !hasPersonalPronouns) || hasNegationContext;
             
             // Check against categorized word sets
             if (this.criticalThreatWords.has(word)) {
@@ -1414,6 +1438,14 @@ export class CyberbullyDetector {
         // Detect non-personal context to reduce false positives
         const hasNonPersonalContext = /\b(project|system|team|work|task|code|software|application|feature|issue|bug)\b/i.test(text);
         const hasPersonalPronouns = /\b(you|your|ur)\b/i.test(text);
+        
+        // Check for negation - if present, dramatically reduce scoring
+        const hasNegationContext = this.hasNegation(text);
+        if (hasNegationContext) {
+            // Negation detected - return low/safe score immediately
+            matchedSignals.push('NEGATION_DETECTED:safe');
+            return { score: 0.05, highSeverity: false, matchedSignals };
+        }
 
         // 1. Semantic pattern matches (HIGHEST PRIORITY)
         for (const match of semanticMatches) {
