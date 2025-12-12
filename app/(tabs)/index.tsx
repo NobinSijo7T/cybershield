@@ -978,13 +978,13 @@ export default function SecurityScannerScreen() {
                           <Text style={{ fontSize: 13, color: colors.textSecondary }}>Cyberbullying</Text>
                         </View>
                         <Text style={{ fontSize: 13, fontWeight: '600', color: colors.danger }}>
-                          {Math.round(bertResult.probabilities[1] * 100)}%
+                          {Math.round(bertResult.probabilities[0] * 100)}%
                         </Text>
                       </View>
                       <View style={{ height: 8, backgroundColor: colors.surfaceSecondary, borderRadius: 4, overflow: 'hidden' }}>
                         <View style={{
                           height: '100%',
-                          width: `${bertResult.probabilities[1] * 100}%`,
+                          width: `${bertResult.probabilities[0] * 100}%`,
                           backgroundColor: colors.danger,
                           borderRadius: 4
                         }} />
@@ -996,13 +996,13 @@ export default function SecurityScannerScreen() {
                           <Text style={{ fontSize: 13, color: colors.textSecondary }}>Not Cyberbullying</Text>
                         </View>
                         <Text style={{ fontSize: 13, fontWeight: '600', color: colors.success }}>
-                          {Math.round(bertResult.probabilities[0] * 100)}%
+                          {Math.round(bertResult.probabilities[1] * 100)}%
                         </Text>
                       </View>
                       <View style={{ height: 8, backgroundColor: colors.surfaceSecondary, borderRadius: 4, overflow: 'hidden' }}>
                         <View style={{
                           height: '100%',
-                          width: `${bertResult.probabilities[0] * 100}%`,
+                          width: `${bertResult.probabilities[1] * 100}%`,
                           backgroundColor: colors.success,
                           borderRadius: 4
                         }} />
@@ -1070,13 +1070,13 @@ export default function SecurityScannerScreen() {
                           <Text style={{ fontSize: 13, color: colors.textSecondary }}>Not Cyberbullying</Text>
                         </View>
                         <Text style={{ fontSize: 13, fontWeight: '600', color: colors.success }}>
-                          {Math.round(bertResult.probabilities[0] * 100)}%
+                          {Math.round(bertResult.probabilities[1] * 100)}%
                         </Text>
                       </View>
                       <View style={{ height: 8, backgroundColor: colors.surfaceSecondary, borderRadius: 4, overflow: 'hidden' }}>
                         <View style={{
                           height: '100%',
-                          width: `${bertResult.probabilities[0] * 100}%`,
+                          width: `${bertResult.probabilities[1] * 100}%`,
                           backgroundColor: colors.success,
                           borderRadius: 4
                         }} />
@@ -1088,13 +1088,13 @@ export default function SecurityScannerScreen() {
                           <Text style={{ fontSize: 13, color: colors.textSecondary }}>Cyberbullying</Text>
                         </View>
                         <Text style={{ fontSize: 13, fontWeight: '600', color: colors.danger }}>
-                          {Math.round(bertResult.probabilities[1] * 100)}%
+                          {Math.round(bertResult.probabilities[0] * 100)}%
                         </Text>
                       </View>
                       <View style={{ height: 8, backgroundColor: colors.surfaceSecondary, borderRadius: 4, overflow: 'hidden' }}>
                         <View style={{
                           height: '100%',
-                          width: `${bertResult.probabilities[1] * 100}%`,
+                          width: `${bertResult.probabilities[0] * 100}%`,
                           backgroundColor: colors.danger,
                           borderRadius: 4
                         }} />
