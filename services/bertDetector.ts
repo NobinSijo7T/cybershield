@@ -380,7 +380,7 @@ class BERTDetectorService {
             const safeProbability = USE_REVERSED_LABELS ? probabilities[1] : probabilities[0];
             
             // Use lower threshold for more sensitive detection
-            const DETECTION_THRESHOLD = 0.45; // More sensitive than 0.5
+            const DETECTION_THRESHOLD = 0.35; // Lowered from 0.45 to catch mild insults like "you are a fool"
             const isCyberbullying = bullyingProbability > DETECTION_THRESHOLD;
             
             // Log BOTH interpretations for debugging

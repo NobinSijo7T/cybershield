@@ -1002,7 +1002,8 @@ export class CyberbullyDetector {
     private insultWords = new Set([
         "stupid", "dumb", "idiot", "loser", "pathetic", "failure", "incompetent", "nobody",
         "bastard", "bitch", "asshole", "dick", "dickhead", "prick", "cunt", "twat",
-        "jerk", "douche", "scumbag", "slut", "whore", "skank", "trash"
+        "jerk", "douche", "scumbag", "slut", "whore", "skank", "trash",
+        "fool", "foolish", "imbecile", "moron"
     ]);
 
     private shamingWords = new Set([
@@ -1519,11 +1520,14 @@ export class CyberbullyDetector {
             autoFlagAsCyberbully = true;
             severityBoost = Math.min(0.7 + (criticalWordCount * 0.15), 0.95);
             matchedSignals.push(`CRITICAL_WORDS:${criticalWordCount}`);
-        } else if (normalized.includes('good for nothing')) {
+        } else if (text.toLowerCase().includes('good for nothing') || 
+                   text.toLowerCase().includes('no good to the world') ||
+                   text.toLowerCase().includes('not good for anything')) {
             // Explicit catch for common phrase that may not be split into tokens
+            // Check original text to avoid stopword removal issues
             autoFlagAsCyberbully = true;
             severityBoost = 0.55;
-            matchedSignals.push('PHRASE:good for nothing');
+            matchedSignals.push('PHRASE:good for nothing/no good');
         } else if (highWordCount >= 1) {
             // Any high severity word = cyberbullying flag  
             autoFlagAsCyberbully = true;
